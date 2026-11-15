@@ -65,39 +65,52 @@ kbd{font-family:var(--f-num);font-size:11px;line-height:1;padding:3px 5px;border
 .icon-btn{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 12px;border-radius:10px;border:1px solid var(--line);background:var(--panel);font-size:14px;font-weight:500;color:var(--muted);cursor:pointer}
 .icon-btn:hover{color:var(--fg);border-color:var(--line-2)}
 
-.stage-grid{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:16px}
+.stage-grid{display:grid;grid-template-columns:minmax(0,318px) minmax(0,1fr);gap:20px}
 @media (max-width:1000px){.stage-grid{grid-template-columns:minmax(0,1fr)}}
 .panel{background:linear-gradient(180deg,var(--panel-2),var(--panel) 38%);border:1px solid var(--line);border-radius:var(--r);min-width:0;box-shadow:inset 0 1px 0 rgba(255,255,255,.035),0 24px 48px -36px rgba(0,0,0,.8)}
 
 /* member panel */
-.member{padding:18px 18px 16px;display:flex;flex-direction:column;gap:14px}
-.member-head{display:flex;justify-content:space-between;align-items:center;gap:10px}
-.who{display:flex;align-items:center;gap:10px}
-.avatar{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--panel-2);border:1px solid var(--line-2);font-size:13px;font-weight:600}
-.who b{display:block;font-size:15px;font-weight:600;line-height:1.2}
-.who span{font-size:13px;color:var(--muted)}
-.pill{font-size:12px;font-weight:500;padding:3px 9px;border-radius:99px;border:1px solid var(--line-2);color:var(--muted);white-space:nowrap}
-.hr{display:flex;align-items:baseline;justify-content:space-between}
-.hr-val{font-size:56px;font-weight:500;line-height:1;letter-spacing:-.06em}
-.hr-val small{font-size:15px;color:var(--muted);margin-left:6px;letter-spacing:0;font-family:var(--f-ui)}
-canvas{display:block;width:100%;height:64px}
-.metrics{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
-.metric{background:var(--panel);padding:10px 12px}
-.metric b{display:block;font-family:var(--f-num);font-variant-numeric:tabular-nums;font-size:22px;font-weight:500;line-height:1.25;transition:color .3s}
-.metric small{display:block;font-size:12px;color:var(--muted)}
+.phone-col{display:flex;justify-content:center;align-items:flex-start;min-width:0}
+.phone{width:100%;max-width:304px;background:#161F24;border:1px solid var(--line-2);border-radius:44px;padding:9px;box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 30px 60px -30px rgba(0,0,0,.9),0 0 0 1px rgba(0,0,0,.6)}
+.screen{position:relative;background:var(--bg-2);border-radius:36px;padding:10px 14px 8px;display:flex;flex-direction:column;gap:8px;overflow:hidden}
+.screen::before{content:"";position:absolute;top:9px;left:50%;width:78px;height:20px;margin-left:-39px;border-radius:99px;background:#05090B}
+.screen::after{content:"";display:block;width:96px;height:4px;border-radius:2px;background:var(--line-2);margin:2px auto 0}
+.sbar{display:flex;justify-content:space-between;align-items:center;height:20px;padding:0 6px;font-size:12px;font-weight:600;color:var(--fg)}
+.sbar-r{display:inline-flex;align-items:center;gap:5px}
+.app-head{display:flex;justify-content:space-between;align-items:center;gap:10px;padding-top:4px}
+.who{display:flex;align-items:center;gap:9px}
+.avatar{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:var(--panel-2);border:1px solid var(--line-2);font-size:12px;font-weight:600}
+.who b{display:block;font-size:14px;font-weight:600;line-height:1.2}
+.who span{font-size:12px;color:var(--muted)}
+.hr-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:10px 12px 8px;display:flex;flex-direction:column;gap:2px}
+.hr{display:flex;align-items:center;justify-content:space-between}
+.live-tag{display:inline-flex;align-items:center;gap:5px;color:var(--ai)}
+.live-tag i{width:6px;height:6px;border-radius:50%;background:var(--ai)}
+.hr-val{font-size:44px;font-weight:500;line-height:1;letter-spacing:-.06em}
+.hr-val small{font-size:13px;color:var(--muted);margin-left:5px;letter-spacing:0;font-family:var(--f-ui)}
+canvas{display:block;width:100%;height:48px;margin-top:3px}
+.metrics{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.metric{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:9px 11px;min-width:0}
+.metric b{display:block;font-family:var(--f-num);font-variant-numeric:tabular-nums;font-size:19px;font-weight:500;line-height:1.25;transition:color .3s}
+.metric small{display:block;font-size:11px;color:var(--muted);line-height:1.3}
 .metric.flag b{color:var(--doctor)}
 .metric.flag small{color:#FFB0A8}
-.status{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.4}
-.status i{flex:none;width:8px;height:8px;border-radius:50%;margin-top:5px;background:var(--ai)}
+.status{display:flex;gap:9px;align-items:flex-start;font-size:13px;line-height:1.35;padding:0 2px}
+.status i{flex:none;width:7px;height:7px;border-radius:50%;margin-top:5px;background:var(--ai)}
 .status[data-tone="watch"] i{background:var(--signal)}.status[data-tone="urgent"] i{background:var(--doctor)}
-.cuff{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;text-align:left;cursor:pointer;background:rgba(245,165,36,.1);border:1px solid var(--signal);border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.35}
+.cuff{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;text-align:left;cursor:pointer;background:rgba(245,165,36,.1);border:1px solid var(--signal);border-radius:14px;padding:9px 12px;font-size:13px;line-height:1.35}
+.screen:has(.cuff:not([hidden])) .status{display:none}
 .cuff b{display:block;color:var(--signal);font-weight:600}
 .cuff span{color:var(--muted)}
+.tabbar{display:grid;grid-template-columns:repeat(4,1fr);margin-top:auto;padding-top:7px;border-top:1px solid var(--line);font-size:11px;font-weight:500;color:var(--muted);text-align:center}
+.tabbar span{display:flex;flex-direction:column;align-items:center;gap:3px}
+.tabbar svg{width:20px;height:20px}
+.tabbar .on{color:var(--ai)}
 .cuff:hover{background:rgba(245,165,36,.16)}
 
 /* pipeline */
 .pipe-wrap{display:flex;flex-direction:column;gap:16px;min-width:0;min-height:0}
-@media (min-width:1001px) and (max-height:800px){.stage-grid{height:calc(100vh - 180px);grid-template-rows:minmax(0,1fr)}.member{overflow:hidden}.pipe-wrap{overflow:hidden}.pipe{flex:none}.log{flex:1;min-height:0;display:flex;flex-direction:column}.log ol{flex:1;max-height:none}}
+@media (min-width:1001px) and (max-height:800px){.stage-grid{height:calc(100vh - 180px);grid-template-rows:minmax(0,1fr)}.phone-col{overflow:hidden}.pipe-wrap{overflow:hidden}.pipe{flex:none}.log{flex:1;min-height:0;display:flex;flex-direction:column}.log ol{flex:1;max-height:none}}
 .pipe{position:relative;padding-top:28px}
 .track{position:absolute;top:10px;left:12.5%;right:12.5%;height:2px;background:var(--line-2);border-radius:2px}
 .track .fill{position:absolute;inset:0 auto 0 0;width:0;background:var(--signal);border-radius:2px;transition:width .7s cubic-bezier(.16,1,.3,1)}
@@ -146,6 +159,7 @@ canvas{display:block;width:100%;height:64px}
 .log time{font-family:var(--f-num);font-size:14px;color:var(--muted)}
 .log .actor{font-size:13px;font-weight:600;color:var(--c)}
 @media (max-width:1000px){
+  .phone{max-width:340px}
   .track{display:none}.pipe{padding-top:0}
   .stages{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
@@ -274,28 +288,38 @@ footer{margin-top:88px;border-top:1px solid var(--line);padding-block:24px 36px;
   </div>
 
   <div class="stage-grid">
-    <div class="panel member">
-      <div class="member-head">
-        <div class="who"><span class="avatar">AW</span><div><b>Amani Wanjiru, 47</b><span>Nairobi · MLZ-0417</span></div></div>
-        <span class="pill">Guardian Plus</span>
+    <div class="phone-col">
+      <div class="phone" role="group" aria-label="Mlinzi member app on Amani's phone">
+        <div class="screen">
+          <div class="sbar"><span class="num" id="clock">07:42</span><span class="sbar-r"><svg width="14" height="10" viewBox="0 0 14 10" aria-hidden="true"><rect x="0" y="6" width="2.5" height="4" rx=".6" fill="currentColor"/><rect x="3.8" y="4" width="2.5" height="6" rx=".6" fill="currentColor"/><rect x="7.6" y="2" width="2.5" height="8" rx=".6" fill="currentColor"/><rect x="11.4" y="0" width="2.5" height="10" rx=".6" fill="currentColor"/></svg><svg width="22" height="11" viewBox="0 0 22 11" aria-hidden="true"><rect x=".5" y=".5" width="18" height="10" rx="2.5" fill="none" stroke="currentColor"/><rect x="2" y="2" width="13" height="7" rx="1.2" fill="currentColor"/><rect x="19.5" y="3.5" width="2" height="4" rx="1" fill="currentColor"/></svg></span></div>
+          <div class="app-head">
+            <div class="who"><span class="avatar">AW</span><div><b>Amani Wanjiru</b><span>Guardian Plus · MLZ-0417</span></div></div>
+            <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5 4 5.6v6.1c0 4.9 3.3 8.6 8 9.8 4.7-1.2 8-4.9 8-9.8V5.6z" fill="none" stroke="#F5A524" stroke-width="1.8" stroke-linejoin="round"/><path d="M7 12.5h2.6l1.4-3 2 6 1.4-3H17" fill="none" stroke="#E8F0F2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="hr-card">
+            <div class="hr"><span class="label">Heart rate</span><span class="label live-tag"><i></i>Live</span></div>
+            <div class="hr-val num" id="hr">68<small>bpm</small></div>
+            <canvas id="ecg" aria-label="Live heart rate trace"></canvas>
+          </div>
+          <div class="metrics">
+            <div class="metric" id="m-bp"><b>122/79</b><small>BP trend · band estimate</small></div>
+            <div class="metric" id="m-hrv"><b>54 ms</b><small>HRV · typical for her</small></div>
+            <div class="metric" id="m-sleep"><b>7h 12m</b><small>Sleep · last night</small></div>
+            <div class="metric" id="m-spo2"><b>97%</b><small>SpO₂ · overnight</small></div>
+          </div>
+          <div class="status" id="status" data-tone="ok"><i></i><span id="status-text">All readings normal. Nurse Faith Njeri is on shift.</span></div>
+          <button type="button" class="cuff" id="cuff" hidden>
+            <span><b>Confirm with home cuff</b><span>The band only shows a trend.</span></span><kbd>C</kbd>
+          </button>
+          <nav class="tabbar" aria-label="App tabs">
+            <span class="on"><svg viewBox="0 0 24 24"><path d="M3 12h4l2-5 4 10 2-5h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Today</span>
+            <span><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Care team</span>
+            <span><svg viewBox="0 0 24 24"><path d="M12 3 5 6v5.5c0 4.3 3 8 7 9.5 4-1.5 7-5.2 7-9.5V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>Sharing</span>
+            <span><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>History</span>
+          </nav>
+        </div>
       </div>
-      <div>
-        <div class="hr"><span class="label">Heart rate · live from band</span></div>
-        <div class="hr-val num" id="hr">68<small>bpm</small></div>
-      </div>
-      <canvas id="ecg" aria-label="Live heart rate trace"></canvas>
-      <div class="metrics">
-        <div class="metric" id="m-bp"><b>122/79</b><small>BP trend · band estimate</small></div>
-        <div class="metric" id="m-hrv"><b>54 ms</b><small>HRV · typical for her</small></div>
-        <div class="metric" id="m-sleep"><b>7h 12m</b><small>Sleep · last night</small></div>
-        <div class="metric" id="m-spo2"><b>97%</b><small>SpO₂ · overnight</small></div>
-      </div>
-      <div class="status" id="status" data-tone="ok"><i></i><span id="status-text">All readings normal. Nurse Faith Njeri is on shift.</span></div>
-      <button type="button" class="cuff" id="cuff" hidden>
-        <span><b>Confirm with home cuff</b><span>The band only shows a trend.</span></span><kbd>C</kbd>
-      </button>
     </div>
-
     <div class="pipe-wrap">
       <div class="pipe">
         <div class="track" aria-hidden="true">
@@ -516,13 +540,13 @@ let cur=null,idx=0,timer=null;
 function step(){const st=SCEN[cur][idx];if(!st)return finish();
   const role=st.r,stage=STAGE_OF[role];
   st.go();S.node=Math.max(S.node,ROLE[role].node);if(S.active&&S.active!==stage)S.done[S.active]=true;S.active=stage;S.done[stage]=true;
-  log(st.t,role,st.l);renderAll();
+  log(st.t,role,st.l);if(/^\d\d:\d\d$/.test(st.t))$('#clock').textContent=st.t;renderAll();
   const el=$('#st-'+stage);if(!reduce){el.classList.remove('fresh');void el.offsetWidth;el.classList.add('fresh');}
   idx++;if(st.pause)return;timer=setTimeout(step,reduce?1400:2600);}
 function finish(){S.active=null;renderAll();$('#log-hint').textContent='Done · press another number or R';$$('.seg button').forEach(b=>b.disabled=false);cur=null;}
 function run(s){reset();cur=s;idx=0;$$('.seg button').forEach(b=>{b.setAttribute('aria-pressed',b.dataset.s===s);b.disabled=true;});$('#log-hint').textContent='Running…';timer=setTimeout(step,250);}
 function cuff(){if($('#cuff').hidden)return;$('#cuff').hidden=true;$('#log-hint').textContent='Running…';step();}
-function reset(){clearTimeout(timer);cur=null;idx=0;S=fresh();$('#cuff').hidden=true;$('#log').innerHTML='';
+function reset(){clearTimeout(timer);cur=null;idx=0;S=fresh();$('#cuff').hidden=true;$('#log').innerHTML='';$('#clock').textContent='07:42';
   log('06:30','ai','Morning sync. Slept 7h 12m, all readings normal.');log('07:00','nurse','Faith Njeri started her shift.');
   $$('.seg button').forEach(b=>{b.setAttribute('aria-pressed','false');b.disabled=false;});$('#log-hint').textContent='Press 1, 2 or 3 to run a scenario';renderAll();$$('#log li').forEach(l=>l.classList.remove('new'));}
 $$('.seg button').forEach(b=>b.onclick=()=>run(b.dataset.s));

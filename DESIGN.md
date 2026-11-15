@@ -1,306 +1,370 @@
 ---
-name: Mlinzi Care Book
-description: The care chain written into the patient's own clinic book, every handoff a dated entry stamped by whoever acted.
+name: Mlinzi
+description: A dark, data-forward care console where one amber signal travels from the band through AI, nurse, doctor and insurer.
 colors:
-  cover: "#1E5A44"
-  cover-deep: "#174836"
-  cover-ink: "#F1F7F3"
-  cover-muted: "#BDD8CB"
-  cover-rule: "rgba(241,247,243,.22)"
-  page: "#FFFFFF"
-  rule-blue: "#C6D7EF"
-  margin-red: "#E05A4E"
-  ink: "#17202A"
-  muted: "#566371"
-  line: "#D9E0E8"
-  hand-blue: "#1D2F7A"
-  carbon: "#2B3170"
-  stamp-ai: "#16683F"
-  stamp-member: "#1D2F7A"
-  stamp-nurse: "#5B3AA6"
-  stamp-doctor: "#C22F2B"
-  stamp-insurer: "#1F57B8"
-  watch-amber: "#8F5300"
-  tab-yellow: "#F4C534"
-  tab-salmon: "#F29A82"
-  tab-sky: "#9FD0EC"
-  marker: "#FCEB7A"
-  ecg-grid: "#F2C2CB"
-  ncr-nurse: "#FFF3BF"
-  ncr-doctor: "#FDE1E4"
-  ncr-insurer: "#E1ECFB"
+  ink-ground: "#070D10"
+  ink-ground-2: "#0B1317"
+  panel: "#0E181D"
+  panel-raised: "#132028"
+  hairline: "#1A2B32"
+  hairline-strong: "#28414B"
+  brand-mint: "#4EE1B5"
+  brand-trace: "#3CC8A9"
+  signal-amber: "#F5A524"
+  signal-ink: "#1A1204"
+  nurse-violet: "#A491FF"
+  doctor-coral: "#FF7366"
+  insurer-blue: "#56A8FF"
+  fg: "#E8F0F2"
+  muted: "#93A7AF"
+  dim: "#5D717A"
 typography:
   display:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "clamp(30px, 3.2vw, 42px)"
+    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
+    fontSize: "clamp(32px, 3.6vw, 46px)"
     fontWeight: 700
-    lineHeight: 1.15
-    letterSpacing: "0.02em"
+    lineHeight: 1.1
+    letterSpacing: "-0.03em"
+    fontVariation: "wdth 110"
   headline:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "25px"
+    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
+    fontSize: "clamp(28px, 2.7vw, 36px)"
     fontWeight: 700
-    lineHeight: 1.15
-    letterSpacing: "0.06em"
+    lineHeight: 1.1
+    letterSpacing: "-0.03em"
+    fontVariation: "wdth 110"
   title:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "21px"
+    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
+    fontSize: "15px"
     fontWeight: 700
-    lineHeight: 1.15
-    letterSpacing: "0.06em"
-  hand:
-    fontFamily: "Kalam, Comic Neue, Segoe Print, cursive"
-    fontSize: "21px"
-    fontWeight: 400
-    lineHeight: "40px"
+    lineHeight: 1.1
+    letterSpacing: "0em"
+    fontVariation: "wdth 100"
   body:
-    fontFamily: "Barlow, system-ui, -apple-system, Segoe UI, sans-serif"
-    fontSize: "17px"
+    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
+    fontSize: "15px"
     fontWeight: 400
     lineHeight: 1.5
-  figure:
-    fontFamily: "Barlow, system-ui, sans-serif"
-    fontSize: "25px"
-    fontWeight: 600
-    lineHeight: 1.2
-    fontFeature: "tnum"
+    letterSpacing: "0em"
+  lede:
+    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
+    fontSize: "17px"
+    fontWeight: 400
+    lineHeight: 1.55
+    letterSpacing: "0em"
   label:
-    fontFamily: "Barlow, system-ui, sans-serif"
+    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
     fontSize: "12px"
-    fontWeight: 600
-    letterSpacing: "0.06em"
-  stamp:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "19px"
-    fontWeight: 700
+    fontWeight: 500
+    lineHeight: 1.5
+    letterSpacing: "0.02em"
+  label-key:
+    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
+    fontSize: "12px"
+    fontWeight: 500
+    lineHeight: 1.5
+    letterSpacing: "0.03em"
+  reading-hero:
+    fontFamily: "Azeret Mono, ui-monospace, SF Mono, Menlo, monospace"
+    fontSize: "56px"
+    fontWeight: 500
     lineHeight: 1
-    letterSpacing: "0.06em"
+    letterSpacing: "-0.06em"
+  reading-kpi:
+    fontFamily: "Azeret Mono, ui-monospace, SF Mono, Menlo, monospace"
+    fontSize: "34px"
+    fontWeight: 500
+    lineHeight: 1.2
+    letterSpacing: "-0.04em"
+  reading-metric:
+    fontFamily: "Azeret Mono, ui-monospace, SF Mono, Menlo, monospace"
+    fontSize: "22px"
+    fontWeight: 500
+    lineHeight: 1.25
+    letterSpacing: "-0.01em"
+  reading-inline:
+    fontFamily: "Azeret Mono, ui-monospace, SF Mono, Menlo, monospace"
+    fontSize: "15px"
+    fontWeight: 400
+    lineHeight: 1.35
+    letterSpacing: "-0.01em"
+  timestamp:
+    fontFamily: "Azeret Mono, ui-monospace, SF Mono, Menlo, monospace"
+    fontSize: "14px"
+    fontWeight: 400
+    lineHeight: 1.5
+    letterSpacing: "-0.01em"
 rounded:
-  sheet: "2px"
-  book: "3px"
-  stamp: "5px"
-  tab: "8px 8px 0 0"
+  mark: "2px"
+  redact: "3px"
+  key: "4px"
+  focus: "6px"
+  control: "7px"
+  field: "10px"
+  panel: "12px"
+  pill: "99px"
 spacing:
-  gutter: "20px"
-  grid-gap: "22px"
-  rule: "40px"
-  section: "72px"
-  container: "1240px"
+  hairline: "1px"
+  xs: "8px"
+  sm: "12px"
+  md: "16px"
+  lg: "22px"
+  xl: "28px"
+  gutter: "24px"
+  section: "88px"
 components:
-  tab-index:
-    backgroundColor: "{colors.tab-yellow}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.tab}"
-    padding: "8px 12px 14px"
-    height: "60px"
-  stamp-ai:
-    textColor: "{colors.stamp-ai}"
-    typography: "{typography.stamp}"
-    rounded: "{rounded.stamp}"
-    padding: "5px 10px 4px"
-  stamp-nurse:
-    textColor: "{colors.stamp-nurse}"
-    typography: "{typography.stamp}"
-    rounded: "{rounded.stamp}"
-    padding: "5px 10px 4px"
-  stamp-doctor:
-    textColor: "{colors.stamp-doctor}"
-    typography: "{typography.stamp}"
-    rounded: "{rounded.stamp}"
-    padding: "5px 10px 4px"
-  stamp-insurer:
-    textColor: "{colors.stamp-insurer}"
-    typography: "{typography.stamp}"
-    rounded: "{rounded.stamp}"
-    padding: "5px 10px 4px"
-  slip-nurse:
-    backgroundColor: "{colors.ncr-nurse}"
-    textColor: "{colors.ink}"
-    padding: "24px 22px 18px"
-  slip-doctor:
-    backgroundColor: "{colors.ncr-doctor}"
-    textColor: "{colors.ink}"
-    padding: "24px 22px 18px"
-  slip-insurer:
-    backgroundColor: "{colors.ncr-insurer}"
-    textColor: "{colors.ink}"
-    padding: "24px 22px 18px"
-  sheet:
-    backgroundColor: "{colors.page}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.sheet}"
-    padding: "22px 26px 24px"
-  nav-link:
-    textColor: "{colors.cover-muted}"
-    rounded: "{rounded.stamp}"
-    padding: "7px 11px"
-  nav-link-hover:
-    textColor: "{colors.cover-ink}"
-  button-link:
-    textColor: "{colors.stamp-insurer}"
-    padding: "4px 0"
+  panel:
+    backgroundColor: "{colors.panel}"
+    textColor: "{colors.fg}"
+    rounded: "{rounded.panel}"
+    padding: "20px 22px"
+  stage-card:
+    backgroundColor: "{colors.panel}"
+    textColor: "{colors.fg}"
+    rounded: "{rounded.panel}"
+    padding: "13px 14px 12px"
+  kpi-tile:
+    backgroundColor: "{colors.panel}"
+    textColor: "{colors.brand-mint}"
+    typography: "{typography.reading-kpi}"
+    padding: "18px 18px 16px"
+  button-scenario:
+    backgroundColor: "transparent"
+    textColor: "{colors.muted}"
+    rounded: "{rounded.control}"
+    padding: "7px 12px"
+  button-scenario-hover:
+    backgroundColor: "{colors.panel-raised}"
+    textColor: "{colors.fg}"
+  button-scenario-selected:
+    backgroundColor: "{colors.signal-amber}"
+    textColor: "{colors.signal-ink}"
+  button-secondary:
+    backgroundColor: "{colors.panel}"
+    textColor: "{colors.muted}"
+    rounded: "{rounded.field}"
+    padding: "0 12px"
+    height: "40px"
+  button-secondary-hover:
+    backgroundColor: "{colors.panel}"
+    textColor: "{colors.fg}"
   cuff-prompt:
-    backgroundColor: "#FFF6CC"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.stamp}"
-    padding: "10px 14px"
+    backgroundColor: "rgba(245,165,36,.1)"
+    textColor: "{colors.signal-amber}"
+    rounded: "{rounded.field}"
+    padding: "10px 12px"
+  chip-state:
+    backgroundColor: "transparent"
+    textColor: "{colors.muted}"
+    rounded: "{rounded.pill}"
+    padding: "2px 8px"
+  chip-pill:
+    backgroundColor: "transparent"
+    textColor: "{colors.muted}"
+    rounded: "{rounded.pill}"
+    padding: "3px 9px"
+  tag-provenance:
+    backgroundColor: "transparent"
+    textColor: "{colors.signal-amber}"
+    rounded: "{rounded.pill}"
+    padding: "2px 9px"
+  nav-link:
+    backgroundColor: "transparent"
+    textColor: "{colors.muted}"
+    rounded: "{rounded.control}"
+    padding: "6px 10px"
+  nav-link-active:
+    backgroundColor: "{colors.panel}"
+    textColor: "{colors.fg}"
+  kbd-key:
+    backgroundColor: "transparent"
+    textColor: "{colors.muted}"
+    rounded: "{rounded.key}"
+    padding: "3px 5px"
+  toggle:
+    backgroundColor: "{colors.hairline-strong}"
+    rounded: "{rounded.pill}"
+    width: "34px"
+    height: "20px"
+  toggle-on:
+    backgroundColor: "{colors.insurer-blue}"
 ---
 
-# Design System: Mlinzi Care Book
+<!-- Recorded from the shipped index.html on 2026-11-15. Replaces the rejected "Clinic Book" paper system entirely. Provenance note: the independent finish reviewer's verdict pass was cut off by a rate limit; the last fix batch and the restyle that followed were scored by the build thread, not by the reviewer. -->
+
+# Design System: Mlinzi
 
 ## Overview
 
-**Creative North Star: "The Clinic Book"**
+**Creative North Star: "The Guardian's Console"**
 
-Everything is paper set on an exercise-book cover. The page background is a deep cover green; on it sit white paper objects: one open book spread with a centre gutter, carbon-copy slips in NCR tints, and plain white sheets for tables and plans. Nothing floats, glows or sits on a card. Depth comes from the paper itself: the book's stacked page edges, its gutter shading, the tape on a glued-in strip.
+Mlinzi is a dark operations console for care, not a marketing page and not a notebook. Everything sits on a deep blue-green ink ground; content lives in quietly raised panels drawn with hairline borders, a one-pixel lit top edge and a soft dropped shadow. The page is data-forward: every reading, price, count and timestamp is set in a monospaced face with tabular figures, so numbers line up like instrument readouts, while headings are set wide and heavy in Archivo so the product has a voice of its own.
 
-Colour belongs to rubber-stamp ink. Each actor in the care chain owns one ink (Mlinzi AI green, member blue, nurse violet, doctor red, insurer blue), and that ink marks their stamp, their carbon copy's heading and rule, and nothing else. Clinicians and the member "write" in a legible hand; printed form labels are condensed caps; data is set in a plain workhorse sans with tabular figures. The system is single-theme and light only: the user asked for no dark mode.
+Colour is rationed by meaning. Mint is the brand: it marks sections, lights the KPIs, traces the heartbeat and stands for the AI. One warm amber, the guardian's lamp, belongs to the live signal alone: the pulse on the connector, the selected scenario, the cuff prompt, the scroll progress line, the Mlinzi column of the comparison. Each actor in the care chain owns one muted ink (AI mint, nurse violet, doctor coral, insurer blue) that colours only its stage mark, its state chip, its node on the track and its name in the log. Nothing glows, nothing is gradient-filled text, nothing is paper.
 
-Density is tuned for a classroom projector: body text is 17px, handwriting 19 to 22px, live figures 24 to 28px, and every screen reads as one paper object at a time.
+Density is presentation density: the whole first viewport fits 1280x720, panels are tight (13-22px padding) and type stays legible from the back of a room. Motion is the pipeline's own: the pulse travels, values rise into place, KPIs count up, bars grow, sections reveal on scroll, and every one of them has a complete resting state under reduced motion.
 
 **Key Characteristics:**
-- Deep cover-green ground, white paper objects, no cards
-- One stamp ink per actor, used for that actor only
-- Three voices: condensed printed caps, a legible hand, a tabular sans for data
-- Blue ruled lines and a red margin line as structure, not decoration
-- Motion is writing and stamping, one orchestrated sequence at a time
+- Deep blue-green ink ground with raised, hairline-bordered panels and a single faint mint wash top-right of the hero
+- Brand mint for KPIs, section marks and the AI; amber reserved for the live signal; one muted ink per actor
+- Archivo wide (110%) and heavy for headings; Azeret Mono with tabular numerals for every number and timestamp
+- Hairline-grid tiles (1px gaps over the line colour) instead of nested boxes
+- Panels with an inset top highlight and a soft, long dropped shadow; no glows, no gradient text
+- Motion grammar of travel, rise, count and grow, all from a visible resting state
 
 ## Colors
 
-A printer's palette: one cover cloth, white stock with blue rules and a red margin, five stamp inks, and three carbonless-copy tints.
+A near-black blue-green ground with cool, desaturated greys for text and one saturated accent per meaning.
 
 ### Primary
-- **Exercise-Book Cover Green** (cover): the page ground behind everything; also `accent-color` for native controls and the scrollbar track.
-- **Deep Cover Green** (cover-deep): the sticky top bar and safe-area strip, one step darker than the ground.
+- **Brand Mint** (`brand-mint`): the Mlinzi accent. Section marks (the 36x3px bar above every section heading), KPI figures, the "Demo data" live dot, the AI actor and the Guardian Plus card's border tint (`rgba(78,225,181,.45)`). Also the top of the hero's faint radial wash (`rgba(78,225,181,.09)`).
+- **Trace Mint** (`brand-trace`): a slightly dimmer mint for drawn lines, the ECG stroke and its area fill (`rgba(60,200,169,.2)`), and the "Yes" tick icon. Use it where mint must sit on the panel at thin weights.
 
-### Secondary (stamp inks)
-- **Mlinzi AI Green** (stamp-ai): AI stamps; the "ok" status line; positive cells in the comparison table.
-- **Member Ink Blue** (stamp-member): the member's stamp and the dashed border of the home-cuff prompt.
-- **Nurse Violet** (stamp-nurse): nurse stamps and the nurse's carbon copy.
-- **Doctor Red** (stamp-doctor): doctor stamps, the doctor's referral, flagged readings, the "urgent" status and the irregular heart trace.
-- **Insurer Blue** (stamp-insurer): insurer stamps, the insurer's copy, cohort bars, the contract-rule lead-in and the text-link button.
-- **Watch Amber** (watch-amber): the "watch" status line and "partial" cells in the comparison table. It is a status ink, not an actor.
+### Secondary
+- **Signal Amber** (`signal-amber`): the guardian's lamp, used only for the live event. Track fill and pulse, selected scenario button, cuff prompt border and tint (`rgba(245,165,36,.1)`, hover `.16`), scroll progress line, the provenance tag, the Mlinzi column in the comparison (`color-mix(in oklab, signal 7%, panel)` with a 2px inset top rule), the "Partly" icon, the shield in the logo, text selection (`rgba(245,165,36,.35)`), the `accent-color` and the focus ring.
+- **Signal Ink** (`signal-ink`): the only dark text in the system, used on amber fills (selected scenario, its kbd key at `rgba(26,18,4,.35)` border).
 
-### Tertiary
-- **Index Tab Yellow, Salmon, Sky** (tab-yellow, tab-salmon, tab-sky): the three scenario tabs on the book's fore-edge, one per scenario. Tab yellow is also the focus ring.
-- **Highlighter** (marker): text selection, the "illustrative data" label, and the highlighted Mlinzi row in the comparison table.
-- **NCR Yellow, Pink, Blue** (ncr-nurse, ncr-doctor, ncr-insurer): the three carbon-copy slip papers.
-- **ECG Pink** (ecg-grid): the graph-paper grid of the heart-rate strip.
+### Tertiary (actor inks)
+- **Nurse Violet** (`nurse-violet`), **Doctor Coral** (`doctor-coral`), **Insurer Blue** (`insurer-blue`), and the AI's **Brand Mint**: each actor's single ink, applied through the `--c` custom property on its stage. It colours the 8px square mark beside the stage title, the 2px top rule (35% at rest, 100% when active or done), the track node, the active state chip and the actor name in the event log. Doctor Coral is also the flagged-reading colour on the member panel (with `#FFB0A8` for its caption), the "urgent" status dot and the irregular ECG trace. Insurer Blue is the checked state of the consent toggle and the end colour of the condition bars (`linear-gradient(90deg, brand-mint, insurer-blue)`). The member (Amani) uses Foreground as her ink.
 
 ### Neutral
-- **Page White** (page): book pages and sheets.
-- **Rule Blue** (rule-blue): ruled lines under entries, fields and table rows.
-- **Margin Red** (margin-red): the vertical margin line on the entries page and the day headings written against it.
-- **Print Ink** (ink): printed text on paper and the heavy 2px rules under form heads.
-- **Faded Print** (muted): form labels, captions, times, secondary text on paper.
-- **Pencil Line** (line): column dividers and page-foot rules.
-- **Hand Ink** (hand-blue): handwriting on the book's pages.
-- **Carbon Blue** (carbon): handwriting on carbon copies, slightly softened with a 0.6px blur.
-- **Cover Ink / Cover Muted / Cover Rule** (cover-ink, cover-muted, cover-rule): text and hairlines set directly on the green cover.
+- **Ink Ground** (`ink-ground`): page background and the fill of track nodes at rest; also the 2px ring around the pulse.
+- **Ink Ground 2** (`ink-ground-2`): reserved deeper ground; declared but unused on the shipped surface.
+- **Panel** (`panel`): base surface of every panel, tile, segmented control, top-bar hover and sticky table header.
+- **Panel Raised** (`panel-raised`): top of the panel gradient, avatar fill, button hover, done-state chip and the empty bar track.
+- **Hairline** (`hairline`): every border, divider, tile gap and the top-bar rule.
+- **Hairline Strong** (`hairline-strong`): borders on chips, kbd keys, avatar and nodes; track rail; toggle off-state; the redaction block.
+- **Foreground** (`fg`): primary text and the member's ink.
+- **Muted** (`muted`): secondary text, labels, units, nav links at rest, table row heads; the ECG gridlines at `rgba(147,167,175,.12)`.
+- **Dim** (`dim`): the "No" icon only; the quietest ink.
 
 ### Named Rules
-**The One Ink Per Actor Rule.** An actor's stamp ink appears only where that actor acted or receives: their stamp, their copy's heading and rule. Never use a stamp ink as a general accent.
+**The Lamp Rule.** Amber marks the live signal and the presenter's controls, nothing else. It never colours a KPI, a heading, a bar or decoration. If amber appears, something is happening now or is about to be pressed.
 
-**The Paper Holds the Colour Rule.** Colour other than the cover green lives on paper (stamps, tabs, slips, highlighter). Text set on the cover is cover-ink or cover-muted only.
+**The One Ink Per Actor Rule.** Each actor has exactly one colour and it is applied through `--c`: mark, top rule, node, active chip, log name. Actor inks never fill a panel; the active stage only tints its border (`color-mix` 55% with hairline) and background (6% with panel).
+
+**The Mint Is Brand Rule.** Mint carries the brand and the AI, and it is the only accent allowed on numbers at rest (the KPIs). Flagged readings turn coral; nothing else recolours a figure.
 
 ## Typography
 
-**Display Font:** Barlow Condensed (with Arial Narrow)
-**Body Font:** Barlow (with system-ui)
-**Hand Font:** Kalam (with Comic Neue, Segoe Print)
+**Display Font:** Archivo, variable width and weight (with ui-sans-serif, system-ui fallback)
+**Body Font:** Archivo (same family, width 100%)
+**Label/Mono Font:** Azeret Mono 400-600 (with ui-monospace, SF Mono, Menlo fallback)
 
-**Character:** A printed clinic form filled in by hand. Condensed caps are the form's printing, Barlow is the clerk's typewriter for data, and Kalam is the nurse's pen, legible first and casual second.
+**Character:** Headings are Archivo set wide (font-stretch 110%, up to 112% in the logotype), heavy (700-800) and tight (-0.03em), which gives the console a broad, confident voice. Every figure and timestamp is Azeret Mono with tabular numerals and slightly tightened tracking, so values read as instrument output rather than prose.
 
 ### Hierarchy
-- **Display** (700, clamp(30px, 3.2vw, 42px), uppercase, 0.02em): section heads on the cover. The page h1 uses the same voice at clamp(28px, 3vw, 40px).
-- **Headline** (700, 23 to 25px, uppercase, 0.06em): printed form heads: the book's title, slip headings, plan names.
-- **Title** (700, 21px, uppercase, 0.06 to 0.08em): sub-heads on paper ("Entries", sheet headings).
-- **Hand** (400, 21px on a 40px line; 20px on slips, 22px in fields; 700 for emphasis): every handwritten entry, field value and carbon-copy value.
-- **Body** (400, 17px, 1.5): running text; secondary text 14 to 16px in faded print.
-- **Figure** (600, 24 to 28px, tabular numerals): live readings, heart rate, return figures, prices.
-- **Label** (600, 12px, 0.06em, uppercase, Barlow not condensed): printed field labels, reading labels, table column heads (13px).
-- **Stamp** (700 condensed caps, 19px verb over an 11px actor name at 0.1em): stamp impressions only.
+- **Display** (700, `clamp(32px, 3.6vw, 46px)`, 1.1, -0.03em, width 110%): section headings ("What the insurer sees", "Plans"). Each carries a 36x3px mint mark above it.
+- **Headline** (700, `clamp(28px, 2.7vw, 36px)`, 1.1, -0.03em, width 110%): the hero title. Smaller than Display on purpose; the hero's room goes to the live panels.
+- **Title** (700, 15px, 1.1, 0em, width 100%): stage titles, panel h3s, the event log head (13px). Headings inside panels drop back to normal width and tracking. The plan name is the one larger title (20px, width 105%); the logotype is 19px/800/112%.
+- **Lede** (400, 17px, 1.55, muted, max 58ch): section intro paragraph set beside the Display heading. The hero lede is 15px, max 62ch.
+- **Body** (400, 15px, 1.5): stage values, log lines, list copy; 14px for table cells, bar rows, plan features and sub-captions; 13px for fine print, legend, footer and chip text.
+- **Label** (500, 12px, 0.02em, muted): metric captions and KPI names, sentence case.
+- **Label Key** (500, 12px, 0.03em, uppercase, muted): the key in a key/value pair inside a stage card. Uppercase is permitted only here, directly above the value it names.
+- **Reading Hero** (Azeret Mono 500, 56px, 1, -0.06em): the live heart rate, with its unit in 15px Archivo muted.
+- **Reading KPI** (Azeret Mono 500, 34px, 1.2, -0.04em, mint): insurer KPI figures.
+- **Reading Metric** (Azeret Mono 500, 22px, 1.25): the four member metrics; the plan price is 26px/-0.03em.
+- **Reading Inline** (Azeret Mono 400, 15px): numeric values inside stage key/value pairs and the cost row of the comparison.
+- **Timestamp** (Azeret Mono 400, 14px, muted): event-log times; kbd keys are 11px with a 4px-radius hairline-strong border.
 
 ### Named Rules
-**The Who Wrote It Rule.** The typeface says who produced the text. A person's words are in the hand; the form's printing is condensed caps; machine data is Barlow with tabular figures. Do not set data in the hand or a person's note in the sans.
+**The Mono Number Rule.** Any number a presenter might read aloud (a reading, a count, a price, a time) is set in Azeret Mono with `font-variant-numeric: tabular-nums`. Units and captions beside it return to Archivo.
 
-**The Ruled Hand Rule.** Handwriting in the book sits on the 40px rule: its line-height equals the rule gap so every line lands on a blue rule.
+**The Wide Heading Rule.** Page- and section-level headings are width 110%, weight 700, tracking -0.03em. Headings inside a panel are width 100%, tracking 0, so panels never shout over the page.
 
 ## Layout
 
-One centred container, 1240px max, with a 20px gutter (honouring safe-area insets). The first viewport is the open book: a two-column spread whose height clamps between 500px and 660px (100vh minus 186px), left page for the member's form, right page for entries. Scenario tabs hang above the right page's top edge, starting 16px right of the gutter. The entries list scrolls inside the right page.
+A single centred column, max-width 1280px, with 24px gutters (grown by the safe-area insets). The top bar is sticky (56px min height, blurred `rgba(10,17,20,.86)`) with a 2px amber progress line fixed above it.
 
-Below the book, sections sit on the cover with 72px of top space, each opened by a section head (display title left, a 60ch cover-muted sentence right, a cover-rule hairline under both). Paper objects below a head sit in grids with a 22px gap: three slips, a two-column return sheet (44px internal gap), a full-width comparison table that scrolls horizontally inside its sheet, two two-up sheet pairs.
+The hero is the first viewport: a two-column stage grid (`minmax(0,330px) minmax(0,1fr)`, 16px gap) with the member panel left and the pipeline right. The pipeline is four equal stage columns (12px gap, min-height 240px) under a 2px track whose rail runs from 12.5% to 87.5% so each node centres on its column; the event log sits beneath. On viewports at least 1001px wide and at most 800px tall the stage grid is capped to `calc(100vh - 180px)` and the log takes the remaining height, so the whole demo stays inside 1280x720.
 
-Responsive behaviour: at 900px the spread collapses to one column (left page over right, divided by a dashed line, tabs become a static row above the book without subtitles, margin moves to 60px, readings go 2 by 2); slips stack at 980px; plans stack at 720px; the top nav tightens at 640px; cohort bars narrow at 480px.
+Sections below use a two-column head (heading left, lede right, aligned to the baseline, 48px column gap) with 88px of top padding and 28px before the content. Content grids are 16px-gapped: a five-up KPI strip, a 1.4fr/1fr insurer grid, a two-column why/questions grid and a two-column plan grid. Tile sets (metrics, KPIs) are hairline grids: a 1px gap over the hairline colour inside one bordered, rounded container.
 
-**The Ruled Page Rule.** Entries ride a 40px rule gap (blue rule lines drawn by a repeating gradient that scrolls with the content). Day headings occupy exactly one rule.
+Breakpoints, from the build: 1000px (stage grid stacks, track hides, stages go two-up), 980px (KPIs two-up with the last tile full width), 900px (insurer and why grids stack), 820px (section head stacks), 720px (plans stack, live chip hides), 600px (stages one-up, scenario buttons fill the width and drop their kbd hints, log collapses to two columns), 480px (bar label column narrows to 120px). The comparison table keeps a 1040px min-width inside a horizontally scrolling panel with a sticky first column.
+
+Spacing rhythm: 1px hairline, 8, 12, 16, 22, 28 and 88px. Panel padding is 20x22px in sections, 18px on the member panel and 13x14px on stage cards.
 
 ## Elevation & Depth
 
-Flat paper on a flat cover. The single elevated object is the book, and its depth is physical: a soft drop beneath it plus two solid page-edge layers that read as the stacked leaves of a closed-off book block, and a darkening gradient down the centre gutter. Slips and sheets carry no shadow at all. The slips' scalloped top edge (cover-coloured circles cut into the tint) reads as a torn carbon perforation.
+Hybrid, and quiet. Depth comes first from tone: the ground is the darkest value, panels sit one step up with a vertical gradient from Panel Raised to Panel over the top 38%, and hover or done states step up again to Panel Raised. Every panel then carries a lit top edge and one soft, long shadow. The top bar floats with a backdrop blur. There are no glows: no coloured box-shadows anywhere, and the only luminous element is the faint mint radial wash behind the hero (`radial-gradient(1100px 560px at 85% -8%, rgba(78,225,181,.09), transparent 62%)`).
 
 ### Shadow Vocabulary
-- **Book block** (`box-shadow: 0 34px 60px -34px rgba(0,0,0,.6), 0 3px 0 #DDE3EA, 0 6px 0 #C8D1DB`): the open book only. The two solid 3px and 6px layers are its page edges, not a decorative offset shadow.
-- **Gutter** (`linear-gradient(90deg, transparent, rgba(23,32,42,.07) 46%, rgba(23,32,42,.16) 50%, rgba(23,32,42,.07) 54%, transparent)`, 56px wide): the spread's centre fold.
+- **Panel lift** (`box-shadow: inset 0 1px 0 rgba(255,255,255,.035), 0 24px 48px -36px rgba(0,0,0,.8)`): every `.panel` and the comparison wrapper; the inset line is the lit edge, the outer shadow pools beneath.
+- **Strip lift** (`box-shadow: 0 24px 48px -36px rgba(0,0,0,.8)`): the KPI strip, whose tiles are already separated by hairlines and need no inset edge.
+- **Top rule** (`box-shadow: inset 0 2px 0 var(--signal)`): the Mlinzi column header in the comparison; a rule drawn as an inset shadow, not elevation.
 
 ### Named Rules
-**The Only the Book Lifts Rule.** The book is the one object with depth. Every other paper object lies flat on the cover; do not add shadows to slips, sheets, tabs or buttons, and do not reuse the page-edge layers anywhere but a book.
+**The Lit-Edge Rule.** A raised surface shows a 1px highlight on its top edge and a shadow below. Depth is never conveyed by a coloured glow or a brighter border alone.
+
+**The Resting State Rule.** Every animated element (track fill, pulse, rising values, counting KPIs, growing bars, scroll reveals) has a complete, legible state with motion disabled; reduced motion shows the finished state immediately and slows the ECG tick.
 
 ## Shapes
 
-Paper geometry: nearly square corners on paper (2px sheets, 3px book), 5px on stamps and the cuff prompt, rounded tops only on index tabs (8px 8px 0 0). Structure is drawn with rules, not boxes: 2px ink rules under form heads and slip heads (in the actor's ink on slips), 1px blue rules under fields and rows, dashed rules for tear-off notes on slips. Stamps are slightly rotated (-3 to -7deg, members' stamps tilt the other way) and run through a fractal-noise displacement filter with multiply blending so they read as ink. The heart-rate strip is glued in: rotated -0.6deg with two translucent tape pieces at its corners.
+Softly rounded rectangles on a strict grid. Panels and tile containers use 12px; fields and controls (segmented control, reset button, metric grid, cuff prompt) use 10px; the buttons inside the segmented control and nav links use 7px; the focus ring 6px; kbd keys 4px; the redaction block 3px; the actor mark and section mark 2px. Chips, state badges, the live indicator, the toggle, bars and the provenance tag are full pills (99px). Nodes, the pulse, the avatar, status dots and the toggle knob are circles.
+
+Borders are always 1px hairlines; the only 2px strokes are the active stage's top rule, the track, the progress line and the pulse's ground-coloured ring. The actor mark is an 8px square, the status dot an 8px circle, the live dot 7px. Icons are inline SVG at 14-16px (22-28px for the shield) drawn with 1.4-1.8px round-capped strokes.
 
 ## Components
 
-### Index tabs (scenario controls)
-The primary action. Coloured paper tabs on the book's fore-edge, one colour per scenario, label in Barlow 600 16px with a 13px subtitle. Rest sits 6px down (tucked behind the page); hover lifts to 0; the pressed tab rises to -4px; while a scenario runs the others desaturate and disable. Transition 0.2s cubic-bezier(.2,.8,.2,1).
+### Buttons
+Controls are quiet until pressed; the pressed scenario is the one amber fill on the page.
+- **Shape:** 7px inside the segmented control, 10px for the standalone reset button; the control itself is a 10px panel with 3px inner padding and a hairline border.
+- **Scenario (segmented):** transparent, muted 14px/500 text with a mono kbd hint, 7x12px padding. Hover: Panel Raised fill, foreground text. Selected (`aria-pressed="true"`): Signal Amber fill with Signal Ink text and kbd. Disabled siblings while a scenario runs: 45% opacity. Transitions 150ms.
+- **Secondary (reset):** 40px tall, Panel fill, hairline border, muted text with a 15px stroke icon; hover lifts text to foreground and border to Hairline Strong.
+- **Cuff prompt:** a full-width amber-bordered action (`rgba(245,165,36,.1)` fill, 10px radius, 10x12px padding) with an amber bold lead, muted explanation and a kbd "C"; hover deepens the tint to `.16`. It appears only while a scenario is paused.
+- **Focus:** 2px Signal Amber outline, 2px offset, 6px radius, on every focusable element.
 
-### Stamps
-The signature mark. A bordered impression (2.5px border in the actor's ink, 5px radius) with a condensed verb over the actor's name, rotated, ink-filtered, multiplied onto the page at 0.92 opacity. They land with the press animation after their entry finishes writing.
+### Chips
+- **State badge:** 11px/500, 2x8px padding, pill, Hairline Strong border, muted text. Active stage: border and text in the actor ink. Done stage: foreground text on Panel Raised.
+- **Pill (plan, live):** 12px/500, 3x9px (4x10px with a 7px mint dot for the live indicator), pill, hairline border, muted text.
+- **Provenance tag:** 12px/500 amber text on a 40% amber pill border, placed under a section heading to label illustrative data.
+- **kbd:** Azeret Mono 11px, 3x5px, 4px radius, Hairline Strong border, muted.
 
-### Entries
-A handwritten line on the ruled page with its time printed in the left margin (600 15px faded print, tabular) and a stamp on the right. New entries write on left to right (clip-path reveal, 0.95s, cubic-bezier(.16,1,.3,1)); the stamp presses at 0.8s (0.32s, overshoot cubic-bezier(.3,1.5,.5,1)). Steps advance every 2.7s. Day headings are margin-red label caps.
+### Cards / Containers
+- **Corner Style:** 12px.
+- **Background:** `linear-gradient(180deg, panel-raised, panel 38%)` with a 1px hairline border.
+- **Shadow Strategy:** Panel lift (see Elevation).
+- **Border:** hairline; Guardian Plus uses a 45% mint border; the active stage uses `color-mix(in oklab, actor 55%, hairline)`.
+- **Internal Padding:** 20x22px (section panels), 18px (member panel), 13x14px (stage cards), 22px (plan cards).
+- **Lists inside panels** separate items with hairline rules and 12px vertical padding, no bullets.
 
-### Carbon-copy slips
-One slip per receiving actor in its NCR tint with a scalloped top edge; heading in the actor's ink over a 2px actor-ink rule; a label/hand definition list; a dashed-rule footnote saying what that actor sees. A refreshed slip re-writes its values with staggered 0.12s delays. The insurer's slip redacts with solid ink bars until the consent box is ticked.
-
-### Sheets
-Plain white paper on the cover for tables and lists: 2px radius, no shadow, ink 2px rule under any header. Tables use 1px blue row rules and tabular figures; the Mlinzi row is highlighted with a marker band (10% inset top and bottom).
-
-### Form fields and readings
-Printed label caps beside a handwritten value on a blue rule. Readings sit in a four-column strip under a 2px ink rule with pencil-line dividers; a flagged reading turns doctor red.
+### Inputs / Fields
+- **Consent toggle:** 34x20px pill, Hairline Strong track, 14px foreground knob at 3px inset; checked turns the track Insurer Blue and springs the knob 14px right (`cubic-bezier(.3,1.4,.5,1)` 200ms). Its label is 13px with a foreground bold line and a muted explanation; it sits at the bottom of the insurer stage above a hairline.
+- **Focus:** the global amber ring.
 
 ### Navigation
-A sticky deep-green bar: the wordmark in condensed caps 27px with a cover-muted gloss, links in Barlow 500 15px cover-muted with 5px radius, hover to cover-ink on a 7% white wash.
+- **Top bar:** sticky, blurred ink (`rgba(10,17,20,.86)`, `backdrop-filter: saturate(140%) blur(10px)`), hairline bottom rule, 56px min height. Logotype 19px/800 width 112% beside the amber-shield mark and a muted 13px tagline. Links 14px/500 muted with 6x10px padding and 7px radius; hover and the active section (observed by scroll position) show foreground text on a Panel fill. A 2px amber progress line tracks scroll at the very top. Under 720px the live chip hides and the nav wraps beneath the logotype.
 
-### Buttons
-Two kinds beyond the tabs. The cuff prompt: full-width, pale yellow, 2px dashed member-blue border, bold member-blue line over faded print; hover deepens the yellow. The text-link button: no box, insurer-blue 600 14px, underlined with a 3px offset.
+### Live Pipeline (signature)
+The track is a 2px Hairline Strong rail with four 10px nodes (ground fill, Hairline Strong ring) at 0/33/66/100%. As a scenario runs, an amber fill grows along the rail and a 14px amber pulse (2px ground ring) travels to the active node (`cubic-bezier(.16,1,.3,1)` 700ms); passed nodes fill with their actor ink. Below, each stage card shows its title with an 8px actor square, a state badge, a muted one-line role, and either an empty-state sentence or a key/value list (uppercase 12px keys, 15px values, numeric values in mono) whose rows rise into place 60ms apart. The insurer stage redacts member fields with a Hairline Strong block until consent is on. The track hides under 1000px; stages reflow two-up then one-up.
 
-### Consent checkbox
-A 24px square ink-bordered box with a hand-ink tick that springs in (0.2s overshoot).
+### Event Log (signature)
+A panel with a 13px bold head and a muted hint on the right. Rows are a three-column grid (52px mono time, 92px actor name in its ink, text), 8x14px padding, hairline rules, newest first, rising in over 450ms. The list scrolls at 120px, or fills the remaining height under the 720px height cap.
 
-Focus everywhere is a 3px tab-yellow outline with 3px offset.
+### Live Vitals (signature)
+The member panel stacks identity (34px avatar, name, plan pill), the 56px mono heart rate with a 15px unit, a 64px canvas ECG (Trace Mint 1.8px stroke over two 12% gridlines with a mint-to-transparent area fill, coral when irregular), a 2x2 hairline grid of 22px mono metrics with 12px captions (flagged metrics turn coral), and a status line led by an 8px dot (mint ok, amber watch, coral urgent).
+
+### KPI Strip and Bars
+Five hairline-separated tiles in one 12px container: 12px label, 34px mint mono figure that counts up over 1.1s when scrolled into view, 13px muted caption. Condition bars are 8px pills on a Panel Raised track filled with a mint-to-insurer-blue gradient that grows over 1s; label 170px left, mono count right.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** give every new actor or role a single stamp ink and keep it to their stamp, copy and flagged values.
-- **Do** put people's words in Kalam on a ruled line, printed labels in 12px label caps, and numbers in Barlow 600 with tabular figures.
-- **Do** set new content as white paper on the cover green: a sheet (2px radius, no shadow) under a cover section head.
-- **Do** show the illustrative-data label in the marker highlight wherever pilot figures appear.
-- **Do** honour reduced motion: no write or press animations, instant scrolling, slower step cadence (1.4s).
-- **Do** keep text at projector sizes: 17px body minimum on paper, 12px only for caps labels.
+- **Do** set every number and timestamp in Azeret Mono with tabular numerals, and return units and captions to Archivo.
+- **Do** colour an actor through `--c` only: mark, top rule, node, active chip and log name; tint its active stage with `color-mix` at 55% (border) and 6% (background).
+- **Do** keep amber for the live signal and the presenter's controls: pulse, track fill, selected scenario, cuff prompt, progress line, provenance tag, focus ring.
+- **Do** build tile sets as hairline grids (1px gap over the hairline colour inside one 12px bordered container) rather than nested bordered boxes.
+- **Do** give every panel the lit edge and the long soft shadow (`inset 0 1px 0 rgba(255,255,255,.035), 0 24px 48px -36px rgba(0,0,0,.8)`).
+- **Do** ship every animation with a complete resting state and honour `prefers-reduced-motion` by showing it immediately.
+- **Do** keep the whole live demo inside 1280x720 using the height cap, and keep demo type at 14px or larger.
+- **Do** draw icons as inline SVG strokes (1.4-1.8px, round caps) at 14-16px.
 
 ### Don't:
-- **Don't** add a dark theme; the system is single-theme light by the user's decision.
-- **Don't** use a stamp ink as a decorative accent or put two actors' inks on one object.
-- **Don't** add shadows, cards or floating panels; only the book has depth.
-- **Don't** put coloured text directly on the cover; colour lives on paper.
-- **Don't** set data or UI copy in the handwriting face, or handwriting off its rule.
-
-<!-- Known gaps shipped at the second finish review (open defects, not system rules; do not copy them into new surfaces):
-1. During a run a stamp and the carbon copy it updates are never on screen together; the page scrolls to the copies only when the run ends.
-2. The Jubilee return sheet leaves its lower-right quarter empty.
-3. The "Doctor's referral" slip heading wraps to two lines.
-4. About 140px of dead space under Status on the left page at 1280x720. -->
+- **Don't** bring back paper, notebook, handwriting, stamp or ruled-line metaphors; the world is a console.
+- **Don't** add glows: no coloured box-shadows, no blurred halos, no gradient-filled text. Gradients exist only as the panel's top tint, the hero wash and the condition bar fill.
+- **Don't** use amber on KPIs, headings, bars or decoration, and don't use mint for the live pulse.
+- **Don't** fill a stage or panel with an actor's ink; actor colours are marks and rules, never surfaces.
+- **Don't** set uppercase text outside the key of a key/value pair; there are no kickers or eyebrows above headings, only the mint mark.
+- **Don't** widen or tighten headings inside panels; width 110% and -0.03em belong to page and section headings only.
+- **Don't** introduce a second body face or a system display face; Archivo and Azeret Mono are the whole palette.
+- **Don't** add a light theme; the system is dark only (`color-scheme: dark`).

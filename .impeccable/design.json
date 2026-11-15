@@ -1,646 +1,204 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-15T08:48:09+00:00",
-  "title": "Design System: Mlinzi Care Book",
+  "generatedAt": "2026-11-15T21:15:00Z",
+  "title": "Design System: Mlinzi",
   "extensions": {
     "colorMeta": {
-      "cover": {
-        "role": "primary",
-        "displayName": "Exercise-Book Cover Green",
-        "canonical": "#1E5A44",
-        "tonalRamp": [
-          "#020F09",
-          "#0B2C20",
-          "#194D3A",
-          "#346E57",
-          "#569078",
-          "#7EB29B",
-          "#AFD3C2",
-          "#DFF4EA"
-        ]
-      },
-      "cover-deep": {
-        "role": "primary",
-        "displayName": "Deep Cover Green",
-        "canonical": "#174836",
-        "tonalRamp": [
-          "#030E09",
-          "#102B21",
-          "#224B3B",
-          "#3D6C59",
-          "#5E8E7A",
-          "#85B09D",
-          "#B3D2C3",
-          "#E2F3EB"
-        ]
-      },
-      "stamp-ai": {
-        "role": "secondary",
-        "displayName": "Mlinzi AI Green",
-        "canonical": "#16683F",
-        "tonalRamp": [
-          "#000F05",
-          "#012E17",
-          "#02502D",
-          "#237248",
-          "#499468",
-          "#74B68D",
-          "#A8D6B8",
-          "#DCF6E5"
-        ]
-      },
-      "stamp-member": {
-        "role": "secondary",
-        "displayName": "Member Ink Blue",
-        "canonical": "#1D2F7A",
-        "tonalRamp": [
-          "#04091E",
-          "#15214C",
-          "#283C7F",
-          "#425BAA",
-          "#627DD0",
-          "#86A2EE",
-          "#B3C8FF",
-          "#E1EEFF"
-        ]
-      },
-      "stamp-nurse": {
-        "role": "secondary",
-        "displayName": "Nurse Violet",
-        "canonical": "#5B3AA6",
-        "tonalRamp": [
-          "#0D0521",
-          "#291651",
-          "#482A88",
-          "#6748B5",
-          "#876BDB",
-          "#A992F9",
-          "#CBBDFF",
-          "#EFE8FF"
-        ]
-      },
-      "stamp-doctor": {
-        "role": "secondary",
-        "displayName": "Doctor Red",
-        "canonical": "#C22F2B",
-        "tonalRamp": [
-          "#200000",
-          "#4F0000",
-          "#840001",
-          "#B21C1D",
-          "#DB4840",
-          "#FB766A",
-          "#FFACA0",
-          "#FFDFD7"
-        ]
-      },
-      "stamp-insurer": {
-        "role": "secondary",
-        "displayName": "Insurer Blue",
-        "canonical": "#1F57B8",
-        "tonalRamp": [
-          "#010923",
-          "#032156",
-          "#093B8E",
-          "#235BBD",
-          "#457FE3",
-          "#6EA4FF",
-          "#A3CAFF",
-          "#D9F0FF"
-        ]
-      },
-      "watch-amber": {
-        "role": "secondary",
-        "displayName": "Watch Amber",
-        "canonical": "#8F5300",
-        "tonalRamp": [
-          "#160700",
-          "#3C1C00",
-          "#663300",
-          "#8C5100",
-          "#B17230",
-          "#D1975F",
-          "#EAC099",
-          "#FFEAD3"
-        ]
-      },
-      "tab-yellow": {
-        "role": "tertiary",
-        "displayName": "Index Tab Yellow",
-        "canonical": "#F4C534",
-        "tonalRamp": [
-          "#140900",
-          "#382000",
-          "#5F3A00",
-          "#855900",
-          "#A87B00",
-          "#C89F1A",
-          "#E3C67C",
-          "#FDEDC4"
-        ]
-      },
-      "tab-salmon": {
-        "role": "tertiary",
-        "displayName": "Index Tab Salmon",
-        "canonical": "#F29A82",
-        "tonalRamp": [
-          "#190502",
-          "#40160A",
-          "#6D2A18",
-          "#964731",
-          "#BB6852",
-          "#DC8E79",
-          "#F3BAAA",
-          "#FFE6DC"
-        ]
-      },
-      "tab-sky": {
-        "role": "tertiary",
-        "displayName": "Index Tab Sky",
-        "canonical": "#9FD0EC",
-        "tonalRamp": [
-          "#030D13",
-          "#0E2836",
-          "#1E475C",
-          "#396780",
-          "#5A89A3",
-          "#81ACC4",
-          "#B0CEE0",
-          "#E0F2FC"
-        ]
-      },
-      "marker": {
-        "role": "tertiary",
-        "displayName": "Highlighter",
-        "canonical": "#FCEB7A",
-        "tonalRamp": [
-          "#100B00",
-          "#2F2500",
-          "#514100",
-          "#736100",
-          "#958300",
-          "#B6A743",
-          "#D5CB8B",
-          "#F5F0CC"
-        ]
-      },
-      "ncr-nurse": {
-        "role": "tertiary",
-        "displayName": "NCR Yellow",
-        "canonical": "#FFF3BF",
-        "tonalRamp": [
-          "#0E0B02",
-          "#2B250A",
-          "#4B4218",
-          "#6C6132",
-          "#8E8352",
-          "#B0A67A",
-          "#D1CAAB",
-          "#F3EFDD"
-        ]
-      },
-      "ncr-doctor": {
-        "role": "tertiary",
-        "displayName": "NCR Pink",
-        "canonical": "#FDE1E4",
-        "tonalRamp": [
-          "#0F090A",
-          "#2E2123",
-          "#503C3E",
-          "#725A5D",
-          "#947B7E",
-          "#B69EA1",
-          "#D5C4C6",
-          "#F6ECED"
-        ]
-      },
-      "ncr-insurer": {
-        "role": "tertiary",
-        "displayName": "NCR Blue",
-        "canonical": "#E1ECFB",
-        "tonalRamp": [
-          "#090B0F",
-          "#20252C",
-          "#3B434D",
-          "#59626F",
-          "#798391",
-          "#9DA6B2",
-          "#C3CAD3",
-          "#EBEFF4"
-        ]
-      },
-      "ecg-grid": {
-        "role": "tertiary",
-        "displayName": "ECG Pink",
-        "canonical": "#F2C2CB",
-        "tonalRamp": [
-          "#12080A",
-          "#341E22",
-          "#59373E",
-          "#7D545C",
-          "#A0757D",
-          "#C298A0",
-          "#DEC0C6",
-          "#FBE9EC"
-        ]
-      },
-      "page": {
-        "role": "neutral",
-        "displayName": "Page White",
-        "canonical": "#FFFFFF",
-        "tonalRamp": [
-          "#0B0B0B",
-          "#252525",
-          "#424242",
-          "#616161",
-          "#828282",
-          "#A5A5A5",
-          "#C9C9C9",
-          "#EEEEEE"
-        ]
-      },
-      "rule-blue": {
-        "role": "neutral",
-        "displayName": "Rule Blue",
-        "canonical": "#C6D7EF",
-        "tonalRamp": [
-          "#080B11",
-          "#1E2631",
-          "#364354",
-          "#546277",
-          "#748499",
-          "#98A6BB",
-          "#C0CAD9",
-          "#E9EFF8"
-        ]
-      },
-      "margin-red": {
-        "role": "neutral",
-        "displayName": "Margin Red",
-        "canonical": "#E05A4E",
-        "tonalRamp": [
-          "#1F0000",
-          "#4C0102",
-          "#800407",
-          "#AD2923",
-          "#D55045",
-          "#F57B6E",
-          "#FFAFA3",
-          "#FFE0D8"
-        ]
-      },
-      "ink": {
-        "role": "neutral",
-        "displayName": "Print Ink",
-        "canonical": "#17202A",
-        "tonalRamp": [
-          "#090B0F",
-          "#20262C",
-          "#3A434D",
-          "#58626E",
-          "#788490",
-          "#9CA6B2",
-          "#C2CAD3",
-          "#EBEFF4"
-        ]
-      },
-      "muted": {
-        "role": "neutral",
-        "displayName": "Faded Print",
-        "canonical": "#566371",
-        "tonalRamp": [
-          "#080C0F",
-          "#1F262D",
-          "#38434F",
-          "#566371",
-          "#768493",
-          "#9AA7B4",
-          "#C1CAD4",
-          "#EAEFF5"
-        ]
-      },
-      "line": {
-        "role": "neutral",
-        "displayName": "Pencil Line",
-        "canonical": "#D9E0E8",
-        "tonalRamp": [
-          "#0A0B0D",
-          "#222529",
-          "#3D4348",
-          "#5C6269",
-          "#7D838A",
-          "#A0A6AC",
-          "#C5CACE",
-          "#ECEFF2"
-        ]
-      },
-      "hand-blue": {
-        "role": "neutral",
-        "displayName": "Hand Ink",
-        "canonical": "#1D2F7A",
-        "tonalRamp": [
-          "#04091E",
-          "#15214C",
-          "#283C7F",
-          "#425BAA",
-          "#627DD0",
-          "#86A2EE",
-          "#B3C8FF",
-          "#E1EEFF"
-        ]
-      },
-      "carbon": {
-        "role": "neutral",
-        "displayName": "Carbon Blue",
-        "canonical": "#2B3170",
-        "tonalRamp": [
-          "#07091B",
-          "#1C2145",
-          "#343C74",
-          "#505A9E",
-          "#707CC2",
-          "#93A0E2",
-          "#BCC6F6",
-          "#E7EDFF"
-        ]
-      },
-      "cover-ink": {
-        "role": "neutral",
-        "displayName": "Cover Ink",
-        "canonical": "#F1F7F3",
-        "tonalRamp": [
-          "#0A0C0B",
-          "#232624",
-          "#3F4340",
-          "#5E635F",
-          "#7E8480",
-          "#A1A6A3",
-          "#C6CAC8",
-          "#EDEFEE"
-        ]
-      },
-      "cover-muted": {
-        "role": "neutral",
-        "displayName": "Cover Muted",
-        "canonical": "#BDD8CB",
-        "tonalRamp": [
-          "#070D0A",
-          "#1B2822",
-          "#33473E",
-          "#4F685C",
-          "#70897D",
-          "#94ABA0",
-          "#BDCEC6",
-          "#E8F1EC"
-        ]
-      },
-      "cover-rule": {
-        "role": "neutral",
-        "displayName": "Cover Rule",
-        "canonical": "rgba(241,247,243,.22)",
-        "tonalRamp": [
-          "#0A0C0B",
-          "#232624",
-          "#3F4340",
-          "#5E635F",
-          "#7E8480",
-          "#A1A6A3",
-          "#C6CAC8",
-          "#EDEFEE"
-        ]
-      }
+      "ink-ground": { "role": "neutral", "displayName": "Ink Ground", "canonical": "#070D10", "tonalRamp": ["#070D10", "#0B1317", "#132028", "#1A2B32", "#28414B", "#5D717A", "#93A7AF", "#E8F0F2"] },
+      "ink-ground-2": { "role": "neutral", "displayName": "Ink Ground 2", "canonical": "#0B1317", "tonalRamp": ["#05090B", "#0B1317", "#121E24", "#1B2C34", "#2A4149", "#4A6570", "#86A0AA", "#DCE8EC"] },
+      "panel": { "role": "neutral", "displayName": "Panel", "canonical": "#0E181D", "tonalRamp": ["#070D10", "#0E181D", "#132028", "#1C2E36", "#2C4650", "#4E6B76", "#8AA4AE", "#DDE9ED"] },
+      "panel-raised": { "role": "neutral", "displayName": "Panel Raised", "canonical": "#132028", "tonalRamp": ["#0A1216", "#132028", "#1A2B32", "#243A44", "#345260", "#577684", "#90ABB6", "#E0EBEF"] },
+      "hairline": { "role": "neutral", "displayName": "Hairline", "canonical": "#1A2B32", "tonalRamp": ["#0C1519", "#1A2B32", "#28414B", "#365460", "#4B6C7A", "#6E8E9B", "#A3BAC3", "#E4EDF0"] },
+      "hairline-strong": { "role": "neutral", "displayName": "Hairline Strong", "canonical": "#28414B", "tonalRamp": ["#101B20", "#1A2B32", "#28414B", "#395865", "#4F7282", "#7393A1", "#A6BEC7", "#E5EEF1"] },
+      "brand-mint": { "role": "primary", "displayName": "Brand Mint", "canonical": "#4EE1B5", "tonalRamp": ["#06251B", "#0E4634", "#17684E", "#248C69", "#36B48C", "#4EE1B5", "#8DEDCF", "#D6F8EC"] },
+      "brand-trace": { "role": "primary", "displayName": "Trace Mint", "canonical": "#3CC8A9", "tonalRamp": ["#062119", "#0D3F30", "#165E48", "#227D60", "#2FA384", "#3CC8A9", "#82DEC7", "#D2F3EA"] },
+      "signal-amber": { "role": "secondary", "displayName": "Signal Amber", "canonical": "#F5A524", "tonalRamp": ["#2A1A03", "#4F3106", "#7A4C0A", "#A8690F", "#D08716", "#F5A524", "#F9C56E", "#FDEBCB"] },
+      "signal-ink": { "role": "secondary", "displayName": "Signal Ink", "canonical": "#1A1204", "tonalRamp": ["#1A1204", "#33230A", "#523812", "#74511B", "#9A6E27", "#C08E3E", "#DDB77C", "#F3E3C4"] },
+      "nurse-violet": { "role": "tertiary", "displayName": "Nurse Violet", "canonical": "#A491FF", "tonalRamp": ["#1A1540", "#2E2470", "#45379F", "#5F4ECF", "#8370F0", "#A491FF", "#C4B8FF", "#E8E3FF"] },
+      "doctor-coral": { "role": "tertiary", "displayName": "Doctor Coral", "canonical": "#FF7366", "tonalRamp": ["#3A0E0A", "#651A14", "#962920", "#C53F33", "#E8584B", "#FF7366", "#FFB0A8", "#FFE3DF"] },
+      "insurer-blue": { "role": "tertiary", "displayName": "Insurer Blue", "canonical": "#56A8FF", "tonalRamp": ["#0A2240", "#123C6E", "#1B589E", "#2876CD", "#3E90EC", "#56A8FF", "#9BCBFF", "#DCEDFF"] },
+      "fg": { "role": "neutral", "displayName": "Foreground", "canonical": "#E8F0F2", "tonalRamp": ["#1A2326", "#33434A", "#50646C", "#728993", "#93A7AF", "#B5C5CB", "#D0DCE0", "#E8F0F2"] },
+      "muted": { "role": "neutral", "displayName": "Muted", "canonical": "#93A7AF", "tonalRamp": ["#151D20", "#28353A", "#3F5057", "#5D717A", "#788C95", "#93A7AF", "#B8C7CD", "#E3EAEC"] },
+      "dim": { "role": "neutral", "displayName": "Dim", "canonical": "#5D717A", "tonalRamp": ["#0F1517", "#1F2A2E", "#324248", "#475A62", "#5D717A", "#7E919A", "#A8B7BD", "#DEE5E8"] }
     },
     "typographyMeta": {
-      "display": {
-        "displayName": "Display",
-        "purpose": "Section heads on the cover; the page h1 at clamp(28px,3vw,40px)."
-      },
-      "headline": {
-        "displayName": "Headline",
-        "purpose": "Printed form heads: book title, slip headings, plan names (23-25px)."
-      },
-      "title": {
-        "displayName": "Title",
-        "purpose": "Sub-heads on paper: Entries, sheet headings."
-      },
-      "hand": {
-        "displayName": "Hand",
-        "purpose": "Every handwritten entry, field value and carbon-copy value; sits on the 40px rule."
-      },
-      "body": {
-        "displayName": "Body",
-        "purpose": "Running text at projector size."
-      },
-      "figure": {
-        "displayName": "Figure",
-        "purpose": "Live readings, heart rate, return figures, prices; tabular numerals."
-      },
-      "label": {
-        "displayName": "Label",
-        "purpose": "Printed field labels and column heads, uppercase."
-      },
-      "stamp": {
-        "displayName": "Stamp",
-        "purpose": "Stamp impressions only: verb over an 11px actor name."
-      }
+      "display": { "displayName": "Display", "purpose": "Section headings, Archivo width 110%, with a 36x3px mint mark above." },
+      "headline": { "displayName": "Headline", "purpose": "The hero title; smaller than Display so the live panels keep the room." },
+      "title": { "displayName": "Title", "purpose": "Stage and panel headings at width 100%, tracking 0." },
+      "lede": { "displayName": "Lede", "purpose": "Muted intro beside a section heading, max 58ch." },
+      "body": { "displayName": "Body", "purpose": "Stage values, log lines and list copy; 14px for table and plan rows, 13px for fine print." },
+      "label": { "displayName": "Label", "purpose": "Metric captions and KPI names, sentence case." },
+      "label-key": { "displayName": "Label Key", "purpose": "Uppercase key in a stage key/value pair; the only uppercase text." },
+      "reading-hero": { "displayName": "Reading Hero", "purpose": "The live heart rate." },
+      "reading-kpi": { "displayName": "Reading KPI", "purpose": "Insurer KPI figures in mint; counts up on reveal." },
+      "reading-metric": { "displayName": "Reading Metric", "purpose": "The four member metrics; the plan price at 26px." },
+      "reading-inline": { "displayName": "Reading Inline", "purpose": "Numeric values inside stage cards and the comparison cost row." },
+      "timestamp": { "displayName": "Timestamp", "purpose": "Event-log times; kbd keys at 11px." }
     },
     "shadows": [
-      {
-        "name": "book-block",
-        "value": "0 34px 60px -34px rgba(0,0,0,.6), 0 3px 0 #DDE3EA, 0 6px 0 #C8D1DB",
-        "purpose": "The open book only; the solid layers are its stacked page edges."
-      },
-      {
-        "name": "gutter",
-        "value": "linear-gradient(90deg, transparent, rgba(23,32,42,.07) 46%, rgba(23,32,42,.16) 50%, rgba(23,32,42,.07) 54%, transparent)",
-        "purpose": "56px centre fold of the spread."
-      }
+      { "name": "panel-lift", "value": "inset 0 1px 0 rgba(255,255,255,.035), 0 24px 48px -36px rgba(0,0,0,.8)", "purpose": "Every panel and the comparison wrapper: lit top edge plus a long soft pool beneath." },
+      { "name": "strip-lift", "value": "0 24px 48px -36px rgba(0,0,0,.8)", "purpose": "The KPI strip, whose hairline tiles need no inset edge." },
+      { "name": "top-rule-signal", "value": "inset 0 2px 0 var(--signal)", "purpose": "The Mlinzi column header in the comparison; a rule, not elevation." }
+    ],
+    "surfaces": [
+      { "name": "panel-gradient", "value": "linear-gradient(180deg, var(--panel-2), var(--panel) 38%)", "purpose": "Panel background: tonal lift at the top edge." },
+      { "name": "hero-wash", "value": "radial-gradient(1100px 560px at 85% -8%, rgba(78,225,181,.09), transparent 62%)", "purpose": "The one luminous element, a faint mint wash behind the hero on the body." },
+      { "name": "top-bar", "value": "rgba(10,17,20,.86); backdrop-filter: saturate(140%) blur(10px)", "purpose": "Sticky navigation bar." },
+      { "name": "bar-fill", "value": "linear-gradient(90deg, var(--brand), var(--ins))", "purpose": "Condition bar fill, mint to insurer blue." },
+      { "name": "stage-active", "value": "border-color: color-mix(in oklab, var(--c) 55%, var(--line)); background: color-mix(in oklab, var(--c) 6%, var(--panel))", "purpose": "Active stage tint from the actor ink." },
+      { "name": "cmp-us", "value": "color-mix(in oklab, var(--signal) 7%, var(--panel))", "purpose": "The Mlinzi column in the comparison." }
     ],
     "motion": [
-      {
-        "name": "write",
-        "value": ".95s cubic-bezier(.16,1,.3,1) clip-path inset reveal",
-        "purpose": "Entries and slip values write on left to right."
-      },
-      {
-        "name": "press",
-        "value": ".32s cubic-bezier(.3,1.5,.5,1), .8s delay, scale 1.6 to 1",
-        "purpose": "Stamp lands after its entry writes."
-      },
-      {
-        "name": "tab-lift",
-        "value": ".2s cubic-bezier(.2,.8,.2,1)",
-        "purpose": "Index tab hover and pressed travel."
-      },
-      {
-        "name": "tick",
-        "value": ".2s cubic-bezier(.3,1.5,.5,1)",
-        "purpose": "Consent tick springs in."
-      },
-      {
-        "name": "step-cadence",
-        "value": "2700ms (1400ms reduced motion)",
-        "purpose": "Interval between scenario entries."
-      },
-      {
-        "name": "bar-grow",
-        "value": ".6s cubic-bezier(.16,1,.3,1)",
-        "purpose": "Cohort bars resize as runs add to them."
-      }
+      { "name": "ease-travel", "value": "cubic-bezier(.16,1,.3,1)", "purpose": "Pulse and track fill (700ms), rising values (500ms), log rows (450ms), scroll reveals (800ms), bars (1000ms)." },
+      { "name": "ease-spring", "value": "cubic-bezier(.3,1.4,.5,1)", "purpose": "The consent toggle knob, 200ms." },
+      { "name": "duration-state", "value": "300ms", "purpose": "Border, background, colour and opacity changes on stages, nodes, chips and flagged metrics." },
+      { "name": "duration-hover", "value": "150ms", "purpose": "Segmented control hover." },
+      { "name": "count-up", "value": "1100ms, 1 - (1-k)^3", "purpose": "KPI figures counting from zero on reveal (JS)." },
+      { "name": "reveal-stagger", "value": "70ms x (index mod 5)", "purpose": "Scroll-reveal delay per element." },
+      { "name": "rise", "value": "translateY(4px) to none, opacity 0 to 1, 60ms stagger", "purpose": "Stage key/value rows entering." },
+      { "name": "reduced-motion", "value": "reveals shown, rise and log animations none, scroll-behavior auto, step cadence 1400ms, ECG tick 3000ms", "purpose": "Complete resting state." }
     ],
     "breakpoints": [
-      {
-        "name": "xs",
-        "value": "480px"
-      },
-      {
-        "name": "sm",
-        "value": "640px"
-      },
-      {
-        "name": "md",
-        "value": "720px"
-      },
-      {
-        "name": "spread",
-        "value": "900px"
-      },
-      {
-        "name": "slips",
-        "value": "980px"
-      }
+      { "name": "bars-narrow", "value": "480px" },
+      { "name": "stages-single", "value": "600px" },
+      { "name": "plans-stack", "value": "720px" },
+      { "name": "sec-head-stack", "value": "820px" },
+      { "name": "grids-stack", "value": "900px" },
+      { "name": "kpis-two-up", "value": "980px" },
+      { "name": "pipeline-stack", "value": "1000px" },
+      { "name": "container", "value": "1280px" },
+      { "name": "height-cap", "value": "(min-width: 1001px) and (max-height: 800px)" }
     ]
   },
   "components": [
     {
-      "name": "Scenario Index Tab",
+      "name": "Scenario Control",
       "kind": "button",
-      "refersTo": "tab-index",
-      "description": "Coloured paper tab on the book's fore-edge; the primary action, one per scenario.",
-      "html": "<div class=\"ds-tabs\"><button class=\"ds-tab\" style=\"--c:#F4C534\" aria-pressed=\"true\">Rising BP<small>Cuff confirms, doctor treats</small></button><button class=\"ds-tab\" style=\"--c:#F29A82\">Irregular rhythm<small>2 a.m. flag, same-day ECG</small></button></div>",
-      "css": ".ds-tabs{display:flex;gap:6px;align-items:flex-end;padding-top:10px;border-bottom:3px solid #fff} .ds-tab{flex:1;min-height:60px;border:0;border-radius:8px 8px 0 0;padding:8px 12px 14px;text-align:left;cursor:pointer;font:600 16px/1.2 Barlow,system-ui,sans-serif;color:#1E1A10;background:var(--c);transform:translateY(6px);transition:transform .2s cubic-bezier(.2,.8,.2,1),filter .2s} .ds-tab small{display:block;font-weight:400;font-size:13px;opacity:.78;margin-top:2px} .ds-tab:hover{transform:translateY(0)} .ds-tab[aria-pressed=\"true\"]{transform:translateY(-4px)} .ds-tab:focus-visible{outline:3px solid #F4C534;outline-offset:3px}"
+      "refersTo": "button-scenario",
+      "description": "Segmented scenario switcher; the pressed scenario is the one amber fill on the page.",
+      "html": "<div class=\"ds-seg\" role=\"group\"><button class=\"ds-seg-btn\" aria-pressed=\"true\"><kbd class=\"ds-kbd\">1</kbd>Rising BP</button><button class=\"ds-seg-btn\" aria-pressed=\"false\"><kbd class=\"ds-kbd\">2</kbd>Irregular rhythm</button><button class=\"ds-seg-btn\" aria-pressed=\"false\"><kbd class=\"ds-kbd\">3</kbd>Sleep and stress</button></div>",
+      "css": ".ds-seg{display:inline-flex;padding:3px;gap:2px;background:var(--panel,#0E181D);border:1px solid var(--line,#1A2B32);border-radius:10px;font-family:Archivo,ui-sans-serif,system-ui,sans-serif}.ds-seg-btn{display:flex;align-items:center;gap:8px;border:0;background:none;padding:7px 12px;border-radius:7px;font:inherit;font-size:14px;font-weight:500;color:var(--muted,#93A7AF);cursor:pointer;white-space:nowrap;transition:background .15s,color .15s}.ds-seg-btn:hover{color:var(--fg,#E8F0F2);background:var(--panel-2,#132028)}.ds-seg-btn[aria-pressed=\"true\"],.ds-seg-btn[aria-pressed=\"true\"]:hover{background:var(--signal,#F5A524);color:var(--signal-ink,#1A1204)}.ds-seg-btn:focus-visible{outline:2px solid var(--signal,#F5A524);outline-offset:2px}.ds-kbd{font-family:\"Azeret Mono\",ui-monospace,Menlo,monospace;font-size:11px;line-height:1;padding:3px 5px;border-radius:4px;border:1px solid var(--line-2,#28414B);color:var(--muted,#93A7AF)}.ds-seg-btn[aria-pressed=\"true\"] .ds-kbd{border-color:rgba(26,18,4,.35);color:var(--signal-ink,#1A1204)}"
     },
     {
-      "name": "Stamp",
-      "kind": "custom",
-      "refersTo": "stamp-nurse",
-      "description": "Rubber-stamp impression in the acting actor's ink; lands with a short press after its entry writes.",
-      "html": "<div class=\"ds-stamps\"><span class=\"ds-stamp\" style=\"--c:#16683F\"><b>Flagged</b><small>Mlinzi AI</small></span><span class=\"ds-stamp\" style=\"--c:#5B3AA6;--r:-6deg\"><b>Called</b><small>Nurse Njeri</small></span><span class=\"ds-stamp\" style=\"--c:#C22F2B\"><b>Treated</b><small>Dr. Mwangi</small></span><span class=\"ds-stamp\" style=\"--c:#1F57B8;--r:3deg\"><b>Counted</b><small>Jubilee</small></span></div>",
-      "css": ".ds-stamps{display:flex;gap:18px;flex-wrap:wrap;padding:16px;background:#fff} .ds-stamp{display:inline-flex;flex-direction:column;align-items:center;gap:1px;padding:5px 10px 4px;border:2.5px solid var(--c);border-radius:5px;color:var(--c);font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.06em;line-height:1;transform:rotate(var(--r,-4deg));opacity:.92;mix-blend-mode:multiply;animation:ds-press .32s cubic-bezier(.3,1.5,.5,1) both} .ds-stamp b{font-size:19px} .ds-stamp small{font-size:11px;letter-spacing:.1em} @keyframes ds-press{0%{opacity:0;transform:rotate(var(--r,-4deg)) scale(1.6)}100%{opacity:.92;transform:rotate(var(--r,-4deg)) scale(1)}}"
-    },
-    {
-      "name": "Ruled Entry",
-      "kind": "custom",
-      "refersTo": "",
-      "description": "Handwritten entry on the 40px ruled page with margin time and a stamp; writes on left to right.",
-      "html": "<ol class=\"ds-entries\"><li class=\"ds-day\">Tue 17 Nov, overnight</li><li class=\"ds-entry\"><time>02:14</time><p>Irregular rhythm for <em>38 minutes</em> during sleep.</p><span class=\"ds-stamp-sm\">Urgent</span></li></ol>",
-      "css": ".ds-entries{list-style:none;margin:0;padding:4px 20px 18px 96px;background:#fff linear-gradient(90deg,transparent 78px,#E05A4E 78px,#E05A4E 80px,transparent 80px);position:relative} .ds-entries::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(180deg,transparent 0,transparent 39px,#C6D7EF 39px,#C6D7EF 40px);background-position:0 6px;pointer-events:none} .ds-day{height:40px;display:flex;align-items:flex-end;padding-bottom:6px;font:600 13px Barlow,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#E05A4E} .ds-entry{position:relative;display:grid;grid-template-columns:1fr auto;gap:14px} .ds-entry time{position:absolute;left:-92px;width:64px;text-align:right;top:9px;font:600 15px Barlow,sans-serif;color:#566371} .ds-entry p{margin:0;font:400 21px/40px Kalam,cursive;color:#1D2F7A;animation:ds-write .95s cubic-bezier(.16,1,.3,1) both} .ds-entry em{font-style:normal;font-weight:700} .ds-stamp-sm{margin-top:6px;padding:5px 10px 4px;border:2.5px solid #C22F2B;border-radius:5px;color:#C22F2B;font:700 19px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.06em;transform:rotate(-4deg);height:fit-content} @keyframes ds-write{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}"
-    },
-    {
-      "name": "Carbon Copy Slip",
-      "kind": "card",
-      "refersTo": "slip-nurse",
-      "description": "NCR-tinted slip per receiving actor, scalloped top, heading and rule in the actor's ink, handwritten values.",
-      "html": "<article class=\"ds-slip\"><div class=\"ds-slip-head\"><h3>Nurse's copy</h3><span>07:45 · Review today</span></div><dl><dt>Flag</dt><dd>BP trend rising 9 days</dd><dt>Readings</dt><dd>Cuff 148/94</dd></dl><p class=\"ds-hint\">Sees name, readings, AI summary, call notes.</p></article>",
-      "css": ".ds-slip{--c:#5B3AA6;background:#FFF3BF radial-gradient(circle at 7px -1px,#1E5A44 4px,transparent 4.5px) 0 0/14px 8px repeat-x;color:#17202A;padding:24px 22px 18px;max-width:380px;font-family:Barlow,sans-serif} .ds-slip-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;border-bottom:2px solid var(--c);padding-bottom:6px;margin-bottom:10px} .ds-slip-head h3{margin:0;font:700 23px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--c)} .ds-slip-head span{font-size:14px;color:#566371} .ds-slip dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 14px} .ds-slip dt{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#566371;padding-top:6px} .ds-slip dd{margin:0;font:400 20px/1.35 Kalam,cursive;color:#2B3170;text-shadow:0 0 .6px rgba(43,49,112,.55)} .ds-hint{margin:12px 0 0;font-size:14px;color:#566371;border-top:1px dashed rgba(23,32,42,.25);padding-top:8px}"
-    },
-    {
-      "name": "Paper Sheet",
-      "kind": "card",
-      "refersTo": "sheet",
-      "description": "Flat white sheet on the cover for tables and lists; no shadow, ruled rows, tabular figures.",
-      "html": "<div class=\"ds-cover\"><div class=\"ds-sheet\"><h3>Guardian</h3><table><tr><th>Active members</th><td>112</td></tr><tr><th>Retention</th><td>91%</td></tr></table></div></div>",
-      "css": ".ds-cover{background:#1E5A44;padding:24px} .ds-sheet{background:#fff;color:#17202A;border-radius:2px;padding:22px 26px 24px;font-family:Barlow,sans-serif} .ds-sheet h3{margin:0 0 8px;font:700 21px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase;border-bottom:2px solid #17202A;padding-bottom:6px} .ds-sheet table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums} .ds-sheet th{text-align:left;font-weight:500;color:#566371;font-size:17px;padding:9px 0;border-bottom:1px solid #C6D7EF} .ds-sheet td{text-align:right;font-weight:600;font-size:24px;padding:9px 0;border-bottom:1px solid #C6D7EF}"
-    },
-    {
-      "name": "Cover Navigation",
-      "kind": "nav",
-      "refersTo": "nav-link",
-      "description": "Sticky deep-green bar with condensed wordmark and cover-muted links.",
-      "html": "<div class=\"ds-top\"><a class=\"ds-mark\" href=\"#\"><b>Mlinzi</b><span>Swahili for \"guardian\"</span></a><nav><a href=\"#\">Care book</a><a href=\"#\">Who sees what</a><a href=\"#\">Insurer return</a></nav></div>",
-      "css": ".ds-top{display:flex;align-items:center;gap:24px;min-height:56px;padding:6px 20px;background:#174836;color:#F1F7F3;font-family:Barlow,sans-serif} .ds-mark{display:flex;align-items:baseline;gap:10px;text-decoration:none;color:inherit;margin-right:auto} .ds-mark b{font:700 27px 'Barlow Condensed',sans-serif;letter-spacing:.04em;text-transform:uppercase} .ds-mark span{font-size:14px;color:#BDD8CB} .ds-top nav{display:flex;gap:2px} .ds-top nav a{text-decoration:none;font-weight:500;font-size:15px;color:#BDD8CB;padding:7px 11px;border-radius:5px} .ds-top nav a:hover{color:#F1F7F3;background:rgba(255,255,255,.07)} .ds-top a:focus-visible{outline:3px solid #F4C534;outline-offset:3px}"
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet panel-filled button with a stroke icon (Reset).",
+      "html": "<button class=\"ds-btn-secondary\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M2.5 8a5.5 5.5 0 1 0 1.7-4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M2.5 1.8v3h3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Reset</button>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 12px;border-radius:10px;border:1px solid var(--line,#1A2B32);background:var(--panel,#0E181D);font-family:Archivo,ui-sans-serif,system-ui,sans-serif;font-size:14px;font-weight:500;color:var(--muted,#93A7AF);cursor:pointer}.ds-btn-secondary:hover{color:var(--fg,#E8F0F2);border-color:var(--line-2,#28414B)}.ds-btn-secondary:focus-visible{outline:2px solid var(--signal,#F5A524);outline-offset:2px;border-radius:6px}"
     },
     {
       "name": "Cuff Prompt",
       "kind": "button",
       "refersTo": "cuff-prompt",
-      "description": "Dashed member-ink prompt asking the member for a home-cuff reading.",
-      "html": "<button class=\"ds-cuff\"><b>Take a home cuff reading</b><span>The band only shows a trend. Press to send a clinical reading to the nurse.</span></button>",
-      "css": ".ds-cuff{width:100%;max-width:420px;text-align:left;cursor:pointer;background:#FFF6CC;border:2px dashed #1D2F7A;border-radius:5px;padding:10px 14px;color:#17202A;font:17px/1.35 Barlow,sans-serif} .ds-cuff b{display:block;font-size:18px;color:#1D2F7A} .ds-cuff span{color:#566371;font-size:15px} .ds-cuff:hover{background:#FFEFA8} .ds-cuff:focus-visible{outline:3px solid #F4C534;outline-offset:3px}"
+      "description": "Amber-bordered action shown only while a scenario pauses for the home cuff.",
+      "html": "<button class=\"ds-cuff\"><span><b>Confirm with home cuff</b><span>The band only shows a trend.</span></span><kbd class=\"ds-cuff-kbd\">C</kbd></button>",
+      "css": ".ds-cuff{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;max-width:300px;text-align:left;cursor:pointer;background:rgba(245,165,36,.1);border:1px solid var(--signal,#F5A524);border-radius:10px;padding:10px 12px;font-family:Archivo,ui-sans-serif,system-ui,sans-serif;font-size:14px;line-height:1.35;color:var(--fg,#E8F0F2)}.ds-cuff b{display:block;color:var(--signal,#F5A524);font-weight:600}.ds-cuff span span{color:var(--muted,#93A7AF)}.ds-cuff:hover{background:rgba(245,165,36,.16)}.ds-cuff:focus-visible{outline:2px solid var(--signal,#F5A524);outline-offset:2px}.ds-cuff-kbd{font-family:\"Azeret Mono\",ui-monospace,Menlo,monospace;font-size:11px;line-height:1;padding:3px 5px;border-radius:4px;border:1px solid var(--line-2,#28414B);color:var(--muted,#93A7AF)}"
     },
     {
-      "name": "Text Link Button",
-      "kind": "button",
-      "refersTo": "button-link",
-      "description": "Unboxed underlined insurer-blue action at a page foot.",
-      "html": "<button class=\"ds-link\">Start a fresh page</button>",
-      "css": ".ds-link{background:none;border:0;padding:4px 0;font:600 14px Barlow,sans-serif;color:#1F57B8;cursor:pointer;text-decoration:underline;text-underline-offset:3px} .ds-link:hover{color:#17202A} .ds-link:focus-visible{outline:3px solid #F4C534;outline-offset:3px}"
+      "name": "State Chip",
+      "kind": "chip",
+      "refersTo": "chip-state",
+      "description": "Stage state badge: muted at rest, actor ink when active, raised when done.",
+      "html": "<span class=\"ds-chip\">Watching</span> <span class=\"ds-chip ds-chip-active\" style=\"--c:#A491FF\">New flag</span> <span class=\"ds-chip ds-chip-done\">Treated</span> <span class=\"ds-chip ds-chip-pill\">Guardian Plus</span>",
+      "css": ".ds-chip{display:inline-block;font-family:Archivo,ui-sans-serif,system-ui,sans-serif;font-size:11px;font-weight:500;padding:2px 8px;border-radius:99px;border:1px solid var(--line-2,#28414B);color:var(--muted,#93A7AF);white-space:nowrap}.ds-chip-active{border-color:var(--c);color:var(--c)}.ds-chip-done{color:var(--fg,#E8F0F2);background:var(--panel-2,#132028)}.ds-chip-pill{font-size:12px;padding:3px 9px}"
     },
     {
-      "name": "Consent Checkbox",
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky blurred top bar with logotype, section links and the live chip.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-mark\" href=\"#\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 2.5 4 5.6v6.1c0 4.9 3.3 8.6 8 9.8 4.7-1.2 8-4.9 8-9.8V5.6z\" fill=\"none\" stroke=\"#F5A524\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><path d=\"M7 12.5h2.6l1.4-3 2 6 1.4-3H17\" fill=\"none\" stroke=\"#E8F0F2\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><b>Mlinzi</b><small>Swahili for \"guardian\"</small></a><nav class=\"ds-nav\"><a class=\"ds-nav-link ds-on\" href=\"#\">Live demo</a><a class=\"ds-nav-link\" href=\"#\">Insurer view</a><a class=\"ds-nav-link\" href=\"#\">Compare</a><a class=\"ds-nav-link\" href=\"#\">Plans</a></nav><span class=\"ds-live\"><i></i>Demo data</span></header>",
+      "css": ".ds-top{display:flex;align-items:center;gap:8px 28px;min-height:56px;padding:6px 24px;background:rgba(10,17,20,.86);backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid var(--line,#1A2B32);font-family:Archivo,ui-sans-serif,system-ui,sans-serif;color:var(--fg,#E8F0F2)}.ds-mark{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;margin-right:auto}.ds-mark b{font-weight:800;font-size:19px;letter-spacing:-.02em;font-stretch:112%}.ds-mark small{font-size:13px;color:var(--muted,#93A7AF)}.ds-nav{display:flex;gap:2px}.ds-nav-link{text-decoration:none;font-size:14px;font-weight:500;color:var(--muted,#93A7AF);padding:6px 10px;border-radius:7px}.ds-nav-link:hover,.ds-nav-link.ds-on{color:var(--fg,#E8F0F2);background:var(--panel,#0E181D)}.ds-nav-link:focus-visible{outline:2px solid var(--signal,#F5A524);outline-offset:2px}.ds-live{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:500;color:var(--muted,#93A7AF);border:1px solid var(--line,#1A2B32);border-radius:99px;padding:4px 10px}.ds-live i{width:7px;height:7px;border-radius:50%;background:var(--ai,#4EE1B5)}"
+    },
+    {
+      "name": "Stage Card",
+      "kind": "card",
+      "refersTo": "stage-card",
+      "description": "One actor's stage in the pipeline: actor mark, state chip, uppercase keys over values, active tint from --c.",
+      "html": "<article class=\"ds-stage ds-stage-active\" style=\"--c:#A491FF\"><div class=\"ds-stage-head\"><h2><i></i>Nurse</h2><span class=\"ds-state\">New flag</span></div><p class=\"ds-sub\">Faith Njeri · flagged members</p><dl class=\"ds-kv\"><div><dt>Flag</dt><dd>BP trend rising, 9 days</dd></div><div><dt>Readings</dt><dd class=\"ds-num\">Cuff 148/94 · band 141/91</dd></div><div><dt>Action</dt><dd>Asked Amani for a cuff reading</dd></div></dl></article>",
+      "css": ".ds-stage{--c:#4EE1B5;position:relative;width:220px;min-height:240px;display:flex;flex-direction:column;gap:10px;padding:13px 14px 12px;background:linear-gradient(180deg,var(--panel-2,#132028),var(--panel,#0E181D) 38%);border:1px solid var(--line,#1A2B32);border-radius:12px;box-shadow:inset 0 1px 0 rgba(255,255,255,.035),0 24px 48px -36px rgba(0,0,0,.8);font-family:Archivo,ui-sans-serif,system-ui,sans-serif;color:var(--fg,#E8F0F2);transition:border-color .3s,background-color .3s}.ds-stage::before{content:\"\";position:absolute;inset:-1px -1px auto -1px;height:2px;border-radius:12px 12px 0 0;background:var(--c);opacity:.35}.ds-stage-active{border-color:color-mix(in oklab,var(--c) 55%,var(--line,#1A2B32));background:color-mix(in oklab,var(--c) 6%,var(--panel,#0E181D))}.ds-stage-active::before{opacity:1}.ds-stage-head{display:flex;justify-content:space-between;align-items:center;gap:8px}.ds-stage-head h2{margin:0;font-size:15px;font-weight:700;line-height:1.1;display:flex;align-items:center;gap:8px}.ds-stage-head h2 i{width:8px;height:8px;border-radius:2px;background:var(--c)}.ds-state{font-size:11px;font-weight:500;padding:2px 8px;border-radius:99px;border:1px solid var(--c);color:var(--c);white-space:nowrap}.ds-sub{font-size:14px;color:var(--muted,#93A7AF);margin:-4px 0 0}.ds-kv{margin:0;display:flex;flex-direction:column;gap:5px}.ds-kv div{display:flex;flex-direction:column;gap:1px}.ds-kv dt{font-size:12px;font-weight:500;color:var(--muted,#93A7AF);letter-spacing:.03em;text-transform:uppercase}.ds-kv dd{margin:0;font-size:15px;line-height:1.35}.ds-num{font-family:\"Azeret Mono\",ui-monospace,Menlo,monospace;font-variant-numeric:tabular-nums;letter-spacing:-.01em}"
+    },
+    {
+      "name": "Metric Grid",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Hairline grid of mono readings; a flagged metric turns coral.",
+      "html": "<div class=\"ds-metrics\"><div class=\"ds-metric ds-flag\"><b>148/94</b><small>BP · cuff confirmed</small></div><div class=\"ds-metric\"><b>54 ms</b><small>HRV · typical for her</small></div><div class=\"ds-metric\"><b>7h 12m</b><small>Sleep · last night</small></div><div class=\"ds-metric\"><b>97%</b><small>SpO₂ · overnight</small></div></div>",
+      "css": ".ds-metrics{display:grid;grid-template-columns:1fr 1fr;gap:1px;width:300px;background:var(--line,#1A2B32);border:1px solid var(--line,#1A2B32);border-radius:10px;overflow:hidden;font-family:Archivo,ui-sans-serif,system-ui,sans-serif;color:var(--fg,#E8F0F2)}.ds-metric{background:var(--panel,#0E181D);padding:10px 12px}.ds-metric b{display:block;font-family:\"Azeret Mono\",ui-monospace,Menlo,monospace;font-variant-numeric:tabular-nums;font-size:22px;font-weight:500;line-height:1.25;transition:color .3s}.ds-metric small{display:block;font-size:12px;color:var(--muted,#93A7AF)}.ds-flag b{color:var(--doctor,#FF7366)}.ds-flag small{color:#FFB0A8}"
+    },
+    {
+      "name": "KPI Tile",
+      "kind": "card",
+      "refersTo": "kpi-tile",
+      "description": "Insurer KPI: label, mint mono figure, caption; tiles sit in a hairline strip.",
+      "html": "<div class=\"ds-kpis\"><div class=\"ds-kpi\"><span class=\"ds-label\">Active members</span><b>112</b><small>Pilot target 100</small></div><div class=\"ds-kpi\"><span class=\"ds-label\">Retention</span><b>91%</b><small>At month 4</small></div><div class=\"ds-kpi\"><span class=\"ds-label\">Claims avoided</span><b>KES 1.8M</b><small>Modelled vs. non-members</small></div></div>",
+      "css": ".ds-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line,#1A2B32);border:1px solid var(--line,#1A2B32);border-radius:12px;overflow:hidden;box-shadow:0 24px 48px -36px rgba(0,0,0,.8);font-family:Archivo,ui-sans-serif,system-ui,sans-serif;color:var(--fg,#E8F0F2)}.ds-kpi{background:var(--panel,#0E181D);padding:18px 18px 16px}.ds-label{font-size:12px;font-weight:500;color:var(--muted,#93A7AF);letter-spacing:.02em}.ds-kpi b{display:block;font-family:\"Azeret Mono\",ui-monospace,Menlo,monospace;font-variant-numeric:tabular-nums;font-size:34px;font-weight:500;letter-spacing:-.04em;line-height:1.2;margin-top:6px;color:var(--brand,#4EE1B5)}.ds-kpi small{display:block;font-size:13px;color:var(--muted,#93A7AF)}"
+    },
+    {
+      "name": "Consent Toggle",
       "kind": "input",
-      "refersTo": "",
-      "description": "Ink-bordered square with a hand-ink tick; unredacts the insurer's copy.",
-      "html": "<label class=\"ds-consent\"><input type=\"checkbox\" checked><span><b>Amani shares her record for care approval</b>Unblocks her name and care requests.</span></label>",
-      "css": ".ds-consent{display:flex;gap:12px;align-items:flex-start;cursor:pointer;font:15px/1.4 Barlow,sans-serif;color:#17202A;background:#E1ECFB;padding:12px} .ds-consent b{display:block} .ds-consent input{appearance:none;flex:none;width:24px;height:24px;margin:1px 0 0;border:2px solid #17202A;border-radius:2px;background:#fff;cursor:pointer;display:grid;place-items:center} .ds-consent input::after{content:'';width:12px;height:7px;border-left:3px solid #1D2F7A;border-bottom:3px solid #1D2F7A;transform:rotate(-45deg) translate(1px,-2px) scale(0);transition:transform .2s cubic-bezier(.3,1.5,.5,1)} .ds-consent input:checked::after{transform:rotate(-45deg) translate(1px,-2px) scale(1)} .ds-consent input:focus-visible{outline:3px solid #F4C534;outline-offset:3px}"
+      "refersTo": "toggle",
+      "description": "Member consent switch at the foot of the insurer stage; checked turns insurer blue.",
+      "html": "<label class=\"ds-switch\"><input type=\"checkbox\" checked><span><b>Amani shares her record</b>Care approval only. 8% → 15% off.</span></label>",
+      "css": ".ds-switch{display:flex;gap:10px;align-items:flex-start;width:200px;padding-top:8px;border-top:1px solid var(--line,#1A2B32);font-family:Archivo,ui-sans-serif,system-ui,sans-serif;font-size:13px;line-height:1.35;cursor:pointer;color:var(--muted,#93A7AF)}.ds-switch input{appearance:none;flex:none;width:34px;height:20px;margin:0;border-radius:99px;background:var(--line-2,#28414B);position:relative;cursor:pointer;transition:background .2s}.ds-switch input::after{content:\"\";position:absolute;top:3px;left:3px;width:14px;height:14px;border-radius:50%;background:var(--fg,#E8F0F2);transition:transform .2s cubic-bezier(.3,1.4,.5,1)}.ds-switch input:checked{background:var(--ins,#56A8FF)}.ds-switch input:checked::after{transform:translateX(14px)}.ds-switch input:focus-visible{outline:2px solid var(--signal,#F5A524);outline-offset:2px}.ds-switch b{color:var(--fg,#E8F0F2);font-weight:500;display:block}"
+    },
+    {
+      "name": "Pipeline Track",
+      "kind": "custom",
+      "refersTo": "stage-card",
+      "description": "The connector: hairline rail, actor nodes, amber fill and travelling pulse.",
+      "html": "<div class=\"ds-pipe\"><div class=\"ds-track\"><div class=\"ds-fill\" style=\"width:33.333%\"></div><i class=\"ds-node ds-on\" style=\"left:0;--c:#4EE1B5\"></i><i class=\"ds-node ds-on\" style=\"left:33.333%;--c:#A491FF\"></i><i class=\"ds-node\" style=\"left:66.666%;--c:#FF7366\"></i><i class=\"ds-node\" style=\"left:100%;--c:#56A8FF\"></i><div class=\"ds-pulse\" style=\"left:33.333%\"></div></div></div>",
+      "css": ".ds-pipe{position:relative;width:480px;height:28px}.ds-track{position:absolute;top:10px;left:12.5%;right:12.5%;height:2px;background:var(--line-2,#28414B);border-radius:2px}.ds-fill{position:absolute;inset:0 auto 0 0;background:var(--signal,#F5A524);border-radius:2px;transition:width .7s cubic-bezier(.16,1,.3,1)}.ds-node{position:absolute;top:50%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:var(--bg,#070D10);border:2px solid var(--line-2,#28414B);transition:border-color .3s,background .3s}.ds-node.ds-on{border-color:var(--c);background:var(--c)}.ds-pulse{position:absolute;top:50%;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:50%;background:var(--signal,#F5A524);border:2px solid var(--bg,#070D10);transition:left .7s cubic-bezier(.16,1,.3,1)}"
+    },
+    {
+      "name": "Event Log Row",
+      "kind": "custom",
+      "refersTo": "panel",
+      "description": "Mono timestamp, actor name in its ink, then the event text; hairline rules between rows.",
+      "html": "<ol class=\"ds-log\"><li style=\"--c:#56A8FF\"><time>09:42</time><span class=\"ds-actor\">Jubilee</span><span>Counted as one early catch in group stats. Premium unchanged.</span></li><li style=\"--c:#FF7366\"><time>09:41</time><span class=\"ds-actor\">Dr. Mwangi</span><span>Stage 2 hypertension. Started amlodipine 5 mg.</span></li><li style=\"--c:#A491FF\"><time>08:06</time><span class=\"ds-actor\">Nurse Njeri</span><span>Called Amani (6 min). Escalated to doctor.</span></li></ol>",
+      "css": ".ds-log{list-style:none;margin:0;padding:0;width:560px;background:var(--panel,#0E181D);border:1px solid var(--line,#1A2B32);border-radius:12px;overflow:hidden;font-family:Archivo,ui-sans-serif,system-ui,sans-serif;color:var(--fg,#E8F0F2)}.ds-log li{display:grid;grid-template-columns:52px 92px minmax(0,1fr);gap:12px;align-items:baseline;padding:8px 14px;border-bottom:1px solid var(--line,#1A2B32);font-size:15px}.ds-log li:last-child{border-bottom:0}.ds-log time{font-family:\"Azeret Mono\",ui-monospace,Menlo,monospace;font-size:14px;color:var(--muted,#93A7AF)}.ds-actor{font-size:13px;font-weight:600;color:var(--c)}"
     }
   ],
   "narrative": {
-    "northStar": "The Clinic Book",
-    "overview": "Everything is paper set on an exercise-book cover. The page background is a deep cover green; on it sit white paper objects: one open book spread with a centre gutter, carbon-copy slips in NCR tints, and plain white sheets for tables and plans. Nothing floats, glows or sits on a card. Depth comes from the paper itself: the book's stacked page edges, its gutter shading, the tape on a glued-in strip.\n\nColour belongs to rubber-stamp ink. Each actor in the care chain owns one ink (Mlinzi AI green, member blue, nurse violet, doctor red, insurer blue), and that ink marks their stamp, their carbon copy's heading and rule, and nothing else. Clinicians and the member \"write\" in a legible hand; printed form labels are condensed caps; data is set in a plain workhorse sans with tabular figures. The system is single-theme and light only: the user asked for no dark mode.\n\nDensity is tuned for a classroom projector: body text is 17px, handwriting 19 to 22px, live figures 24 to 28px, and every screen reads as one paper object at a time.",
+    "northStar": "The Guardian's Console",
+    "overview": "Mlinzi is a dark operations console for care, not a marketing page and not a notebook. Everything sits on a deep blue-green ink ground; content lives in quietly raised panels drawn with hairline borders, a one-pixel lit top edge and a soft dropped shadow. The page is data-forward: every reading, price, count and timestamp is set in a monospaced face with tabular figures, so numbers line up like instrument readouts, while headings are set wide and heavy in Archivo so the product has a voice of its own.\n\nColour is rationed by meaning. Mint is the brand: it marks sections, lights the KPIs, traces the heartbeat and stands for the AI. One warm amber, the guardian's lamp, belongs to the live signal alone: the pulse on the connector, the selected scenario, the cuff prompt, the scroll progress line, the Mlinzi column of the comparison. Each actor in the care chain owns one muted ink (AI mint, nurse violet, doctor coral, insurer blue) that colours only its stage mark, its state chip, its node on the track and its name in the log. Nothing glows, nothing is gradient-filled text, nothing is paper.\n\nDensity is presentation density: the whole first viewport fits 1280x720, panels are tight (13-22px padding) and type stays legible from the back of a room. Motion is the pipeline's own: the pulse travels, values rise into place, KPIs count up, bars grow, sections reveal on scroll, and every one of them has a complete resting state under reduced motion.",
     "keyCharacteristics": [
-      "Deep cover-green ground, white paper objects, no cards",
-      "One stamp ink per actor, used for that actor only",
-      "Three voices: condensed printed caps, a legible hand, a tabular sans for data",
-      "Blue ruled lines and a red margin line as structure, not decoration",
-      "Motion is writing and stamping, one orchestrated sequence at a time"
+      "Deep blue-green ink ground with raised, hairline-bordered panels and a single faint mint wash top-right of the hero",
+      "Brand mint for KPIs, section marks and the AI; amber reserved for the live signal; one muted ink per actor",
+      "Archivo wide (110%) and heavy for headings; Azeret Mono with tabular numerals for every number and timestamp",
+      "Hairline-grid tiles (1px gaps over the line colour) instead of nested boxes",
+      "Panels with an inset top highlight and a soft, long dropped shadow; no glows, no gradient text",
+      "Motion grammar of travel, rise, count and grow, all from a visible resting state"
     ],
     "rules": [
-      {
-        "name": "The One Ink Per Actor Rule",
-        "body": "An actor's stamp ink appears only where that actor acted or receives: their stamp, their copy's heading and rule. Never use a stamp ink as a general accent.",
-        "section": "colors"
-      },
-      {
-        "name": "The Paper Holds the Colour Rule",
-        "body": "Colour other than the cover green lives on paper (stamps, tabs, slips, highlighter). Text set on the cover is cover-ink or cover-muted only.",
-        "section": "colors"
-      },
-      {
-        "name": "The Who Wrote It Rule",
-        "body": "The typeface says who produced the text. A person's words are in the hand; the form's printing is condensed caps; machine data is Barlow with tabular figures. Do not set data in the hand or a person's note in the sans.",
-        "section": "typography"
-      },
-      {
-        "name": "The Ruled Hand Rule",
-        "body": "Handwriting in the book sits on the 40px rule: its line-height equals the rule gap so every line lands on a blue rule.",
-        "section": "typography"
-      },
-      {
-        "name": "The Ruled Page Rule",
-        "body": "Entries ride a 40px rule gap (blue rule lines drawn by a repeating gradient that scrolls with the content). Day headings occupy exactly one rule.",
-        "section": "layout"
-      },
-      {
-        "name": "The Only the Book Lifts Rule",
-        "body": "The book is the one object with depth. Every other paper object lies flat on the cover; do not add shadows to slips, sheets, tabs or buttons, and do not reuse the page-edge layers anywhere but a book.",
-        "section": "elevation"
-      }
+      { "name": "The Lamp Rule", "body": "Amber marks the live signal and the presenter's controls, nothing else. It never colours a KPI, a heading, a bar or decoration. If amber appears, something is happening now or is about to be pressed.", "section": "colors" },
+      { "name": "The One Ink Per Actor Rule", "body": "Each actor has exactly one colour and it is applied through `--c`: mark, top rule, node, active chip, log name. Actor inks never fill a panel; the active stage only tints its border (`color-mix` 55% with hairline) and background (6% with panel).", "section": "colors" },
+      { "name": "The Mint Is Brand Rule", "body": "Mint carries the brand and the AI, and it is the only accent allowed on numbers at rest (the KPIs). Flagged readings turn coral; nothing else recolours a figure.", "section": "colors" },
+      { "name": "The Mono Number Rule", "body": "Any number a presenter might read aloud (a reading, a count, a price, a time) is set in Azeret Mono with `font-variant-numeric: tabular-nums`. Units and captions beside it return to Archivo.", "section": "typography" },
+      { "name": "The Wide Heading Rule", "body": "Page- and section-level headings are width 110%, weight 700, tracking -0.03em. Headings inside a panel are width 100%, tracking 0, so panels never shout over the page.", "section": "typography" },
+      { "name": "The Lit-Edge Rule", "body": "A raised surface shows a 1px highlight on its top edge and a shadow below. Depth is never conveyed by a coloured glow or a brighter border alone.", "section": "elevation" },
+      { "name": "The Resting State Rule", "body": "Every animated element (track fill, pulse, rising values, counting KPIs, growing bars, scroll reveals) has a complete, legible state with motion disabled; reduced motion shows the finished state immediately and slows the ECG tick.", "section": "elevation" }
     ],
     "dos": [
-      "**Do** give every new actor or role a single stamp ink and keep it to their stamp, copy and flagged values.",
-      "**Do** put people's words in Kalam on a ruled line, printed labels in 12px label caps, and numbers in Barlow 600 with tabular figures.",
-      "**Do** set new content as white paper on the cover green: a sheet (2px radius, no shadow) under a cover section head.",
-      "**Do** show the illustrative-data label in the marker highlight wherever pilot figures appear.",
-      "**Do** honour reduced motion: no write or press animations, instant scrolling, slower step cadence (1.4s).",
-      "**Do** keep text at projector sizes: 17px body minimum on paper, 12px only for caps labels."
+      "Do set every number and timestamp in Azeret Mono with tabular numerals, and return units and captions to Archivo.",
+      "Do colour an actor through `--c` only: mark, top rule, node, active chip and log name; tint its active stage with `color-mix` at 55% (border) and 6% (background).",
+      "Do keep amber for the live signal and the presenter's controls: pulse, track fill, selected scenario, cuff prompt, progress line, provenance tag, focus ring.",
+      "Do build tile sets as hairline grids (1px gap over the hairline colour inside one 12px bordered container) rather than nested bordered boxes.",
+      "Do give every panel the lit edge and the long soft shadow (`inset 0 1px 0 rgba(255,255,255,.035), 0 24px 48px -36px rgba(0,0,0,.8)`).",
+      "Do ship every animation with a complete resting state and honour `prefers-reduced-motion` by showing it immediately.",
+      "Do keep the whole live demo inside 1280x720 using the height cap, and keep demo type at 14px or larger.",
+      "Do draw icons as inline SVG strokes (1.4-1.8px, round caps) at 14-16px."
     ],
     "donts": [
-      "**Don't** add a dark theme; the system is single-theme light by the user's decision.",
-      "**Don't** use a stamp ink as a decorative accent or put two actors' inks on one object.",
-      "**Don't** add shadows, cards or floating panels; only the book has depth.",
-      "**Don't** put coloured text directly on the cover; colour lives on paper.",
-      "**Don't** set data or UI copy in the handwriting face, or handwriting off its rule."
+      "Don't bring back paper, notebook, handwriting, stamp or ruled-line metaphors; the world is a console.",
+      "Don't add glows: no coloured box-shadows, no blurred halos, no gradient-filled text. Gradients exist only as the panel's top tint, the hero wash and the condition bar fill.",
+      "Don't use amber on KPIs, headings, bars or decoration, and don't use mint for the live pulse.",
+      "Don't fill a stage or panel with an actor's ink; actor colours are marks and rules, never surfaces.",
+      "Don't set uppercase text outside the key of a key/value pair; there are no kickers or eyebrows above headings, only the mint mark.",
+      "Don't widen or tighten headings inside panels; width 110% and -0.03em belong to page and section headings only.",
+      "Don't introduce a second body face or a system display face; Archivo and Azeret Mono are the whole palette.",
+      "Don't add a light theme; the system is dark only (`color-scheme: dark`)."
     ]
   }
 }
