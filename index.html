@@ -49,10 +49,10 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 @media (max-width:720px){.live{display:none}.top nav{margin-inline:-10px}}
 
 /* hero */
-.hero{padding-block:16px 28px}
-.hero-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 32px;margin-bottom:14px}
-.hero-head h1{font-size:clamp(26px,2.6vw,34px);font-weight:600}
-.hero-head p{margin:4px 0 0;color:var(--muted);font-size:15px;max-width:60ch}
+.hero{padding-block:12px 28px}
+.hero-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 32px;margin-bottom:12px}
+.hero-head h1{font-size:clamp(26px,2.5vw,32px);font-weight:600}
+.hero-head p{margin:3px 0 0;color:var(--muted);font-size:15px;max-width:62ch}
 .controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .seg{display:flex;padding:3px;gap:2px;background:var(--panel);border:1px solid var(--line);border-radius:10px}
 .seg button{display:flex;align-items:center;gap:8px;border:0;background:none;padding:7px 12px;border-radius:7px;font-size:14px;font-weight:500;color:var(--muted);cursor:pointer;white-space:nowrap;transition:background .15s,color .15s}
@@ -95,15 +95,16 @@ canvas{display:block;width:100%;height:64px}
 .cuff:hover{background:rgba(245,165,36,.16)}
 
 /* pipeline */
-.pipe-wrap{display:flex;flex-direction:column;gap:16px;min-width:0}
+.pipe-wrap{display:flex;flex-direction:column;gap:16px;min-width:0;min-height:0}
+@media (min-width:1001px) and (max-height:800px){.stage-grid{height:calc(100vh - 180px);grid-template-rows:minmax(0,1fr)}.member{overflow:hidden}.pipe-wrap{overflow:hidden}.pipe{flex:none}.log{flex:1;min-height:0;display:flex;flex-direction:column}.log ol{flex:1;max-height:none}}
 .pipe{position:relative;padding-top:28px}
 .track{position:absolute;top:10px;left:12.5%;right:12.5%;height:2px;background:var(--line-2);border-radius:2px}
 .track .fill{position:absolute;inset:0 auto 0 0;width:0;background:var(--signal);border-radius:2px;transition:width .7s cubic-bezier(.16,1,.3,1)}
-.track .pulse{position:absolute;top:50%;left:0;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:var(--signal);box-shadow:0 0 0 4px rgba(245,165,36,.18);transition:left .7s cubic-bezier(.16,1,.3,1),opacity .3s;opacity:0}
+.track .pulse{position:absolute;top:50%;left:0;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:50%;background:var(--signal);border:2px solid var(--bg);transition:left .7s cubic-bezier(.16,1,.3,1),opacity .3s;opacity:0}
 .node{position:absolute;top:50%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:var(--bg);border:2px solid var(--line-2);transition:border-color .3s,background .3s}
 .node.on{border-color:var(--c);background:var(--c)}
 .stages{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
-.stage{--c:var(--ai);position:relative;padding:14px 14px 14px;min-height:262px;display:flex;flex-direction:column;gap:10px;transition:border-color .3s,background-color .3s}
+.stage{--c:var(--ai);position:relative;padding:13px 14px 12px;min-height:240px;display:flex;flex-direction:column;gap:10px;transition:border-color .3s,background-color .3s}
 .stage::before{content:"";position:absolute;inset:-1px -1px auto -1px;height:2px;border-radius:var(--r) var(--r) 0 0;background:var(--c);opacity:.35;transition:opacity .3s}
 .stage.active{border-color:color-mix(in oklab,var(--c) 55%,var(--line));background:color-mix(in oklab,var(--c) 6%,var(--panel))}
 .stage.active::before,.stage.done::before{opacity:1}
@@ -113,19 +114,19 @@ canvas{display:block;width:100%;height:64px}
 .state{font-size:11px;font-weight:500;padding:2px 8px;border-radius:99px;border:1px solid var(--line-2);color:var(--muted);white-space:nowrap}
 .stage.active .state{border-color:var(--c);color:var(--c)}
 .stage.done .state{color:var(--fg);border-color:var(--line-2);background:var(--panel-2)}
-.stage .sub{font-size:13px;color:var(--muted);margin:-4px 0 0}
-.kv{margin:0;display:flex;flex-direction:column;gap:6px}
+.stage .sub{font-size:14px;color:var(--muted);margin:-4px 0 0}
+.kv{margin:0;display:flex;flex-direction:column;gap:5px}
 .kv div{display:flex;flex-direction:column;gap:1px}
-.kv dt{font-size:11px;font-weight:500;color:var(--muted);letter-spacing:.03em;text-transform:uppercase}
-.kv dd{margin:0;font-size:14px;line-height:1.35}
-.kv dd.num{font-size:14px}
-.stage .empty{font-size:14px;color:var(--muted);margin:0}
+.kv dt{font-size:12px;font-weight:500;color:var(--muted);letter-spacing:.03em;text-transform:uppercase}
+.kv dd{margin:0;font-size:15px;line-height:1.35}
+.kv dd.num{font-size:15px}
+.stage .empty{font-size:15px;color:var(--muted);margin:0}
 .stage.fresh .kv dd{animation:rise .5s cubic-bezier(.16,1,.3,1) both}
 .stage.fresh .kv div:nth-child(2) dd{animation-delay:.06s}.stage.fresh .kv div:nth-child(3) dd{animation-delay:.12s}.stage.fresh .kv div:nth-child(4) dd{animation-delay:.18s}
 @keyframes rise{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
 .redact{background:var(--line-2);color:transparent;border-radius:3px;padding:0 6px;user-select:none;transition:background .4s,color .4s}
 .consented .redact{background:transparent;color:inherit;user-select:auto}
-.switch{display:flex;gap:10px;align-items:flex-start;margin-top:auto;padding-top:10px;border-top:1px solid var(--line);font-size:13px;line-height:1.35;cursor:pointer}
+.switch{display:flex;gap:10px;align-items:flex-start;margin-top:auto;padding-top:8px;border-top:1px solid var(--line);font-size:13px;line-height:1.35;cursor:pointer}
 .switch input{appearance:none;flex:none;width:34px;height:20px;margin:0;border-radius:99px;background:var(--line-2);position:relative;cursor:pointer;transition:background .2s}
 .switch input::after{content:"";position:absolute;top:3px;left:3px;width:14px;height:14px;border-radius:50%;background:var(--fg);transition:transform .2s cubic-bezier(.3,1.4,.5,1)}
 .switch input:checked{background:var(--ins)}
@@ -136,13 +137,13 @@ canvas{display:block;width:100%;height:64px}
 .log{padding:6px 0}
 .log-head{display:flex;justify-content:space-between;align-items:center;padding:6px 14px 8px;border-bottom:1px solid var(--line)}
 .log-head h2{font-size:13px;font-weight:600}
-.log-head span{font-size:12px;color:var(--muted)}
-.log ol{list-style:none;margin:0;padding:0;max-height:111px;overflow-y:auto}
-.log li{display:grid;grid-template-columns:52px 92px minmax(0,1fr);gap:12px;align-items:baseline;padding:7px 14px;border-bottom:1px solid var(--line);font-size:14px}
+.log-head span{font-size:13px;color:var(--muted)}
+.log ol{list-style:none;margin:0;padding:0;max-height:120px;overflow-y:auto}
+.log li{display:grid;grid-template-columns:52px 92px minmax(0,1fr);gap:12px;align-items:baseline;padding:8px 14px;border-bottom:1px solid var(--line);font-size:15px}
 .log li:last-child{border-bottom:0}
 .log li.new{animation:rise .45s cubic-bezier(.16,1,.3,1)}
-.log time{font-stretch:87.5%;font-family:var(--f-num);font-size:13px;color:var(--muted)}
-.log .actor{font-size:12px;font-weight:600;color:var(--c)}
+.log time{font-stretch:87.5%;font-family:var(--f-num);font-size:14px;color:var(--muted)}
+.log .actor{font-size:13px;font-weight:600;color:var(--c)}
 @media (max-width:1000px){
   .track{display:none}.pipe{padding-top:0}
   .stages{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -349,7 +350,7 @@ footer{margin-top:88px;border-top:1px solid var(--line);padding-block:24px 36px;
       <tbody id="cmp"></tbody>
     </table>
   </div>
-  <div class="legend"><span><svg width="16" height="16"><use href="#i-yes"/></svg>Yes</span><span><svg width="16" height="16"><use href="#i-part"/></svg>Partly</span><span><svg width="16" height="16"><use href="#i-no"/></svg>No</span><span>Comparison for a Nairobi member, late 2026.</span></div>
+  <div class="legend"><span><svg width="16" height="16"><use href="#i-yes"/></svg>Yes</span><span><svg width="16" height="16"><use href="#i-part"/></svg>Partly</span><span><svg width="16" height="16"><use href="#i-no"/></svg>No</span><span>Comparison for a Nairobi member, late 2026. Competitor entries unverified, to be checked for the paper.</span></div>
 
   <div class="why">
     <div class="panel">
@@ -405,10 +406,10 @@ const CMP=[
  ['Doctor escalation in Kenya',['y','Partner hospital'],['n',''],['n',''],['n',''],['n','Not in Kenya'],['p','Panel hospitals'],['n','No Kenya network']],
  ['Insurer discount in Kenya',['y','Up to 15%'],['n',''],['n',''],['n',''],['p','South Africa-centred'],['p','Varies'],['n','']],
  ['BP confirmation',['y','Cuff in kit'],['p','Hypertension alerts, no cuff'],['p','Limited / beta'],['n',''],['n',''],['n',''],['y','Cuffs']],
- ['Approx. cost',['t','KES 3,900–9,500/mo'],['t','High upfront'],['t','Device + subscription'],['t','Low upfront'],['t','Bundled with cover'],['t','Bundled with cover'],['t','Device + program fee']]
+ ['Approx. cost',['k','KES 3,900–9,500','/mo'],['t','High upfront'],['t','Device + subscription'],['t','Low upfront'],['t','Bundled with cover'],['t','Bundled with cover'],['t','Device + program fee']]
 ];
 const ICON={y:'i-yes',p:'i-part',n:'i-no'};
-$('#cmp').innerHTML=CMP.map(([cap,...cells])=>`<tr><th scope="row">${cap}</th>${cells.map(([k,t],i)=>`<td${i===0?' class="us"':''}>${k==='t'?`<div class="cell y"><span class="num" style="font-size:13px">${t}</span></div>`:`<div class="cell ${k}"><svg width="16" height="16" role="img" aria-label="${{y:'Yes',p:'Partly',n:'No'}[k]}"><use href="#${ICON[k]}"/></svg><span>${t}</span></div>`}</td>`).join('')}</tr>`).join('');
+$('#cmp').innerHTML=CMP.map(([cap,...cells])=>`<tr><th scope="row">${cap}</th>${cells.map(([k,t],i)=>`<td${i===0?' class="us"':''}>${k==='t'?`<div class="cell y"><span>${t}</span></div>`:k==='k'?`<div class="cell y"><span><span class="num">${t}</span>${cells[i][2]}</span></div>`:`<div class="cell ${k}"><svg width="16" height="16" role="img" aria-label="${{y:'Yes',p:'Partly',n:'No'}[k]}"><use href="#${ICON[k]}"/></svg><span>${t}</span></div>`}</td>`).join('')}</tr>`).join('');
 
 /* state */
 let S;
@@ -422,15 +423,21 @@ function fresh(){return{
 };}
 
 /* live heart rate */
-const cv=$('#ecg'),cx=cv.getContext('2d');let pts=Array.from({length:110},()=>68);
+const cv=$('#ecg'),cx=cv.getContext('2d');
+const BEAT=[0,.04,.08,.04,0,-.06,.72,-.22,.02,0,.1,.18,.12,.04,0,0,0,0];
+let pts=[];for(let i=0;i<12;i++)pts.push(...BEAT);pts=pts.slice(-200);
 function draw(){const w=cv.clientWidth,h=cv.clientHeight,d=devicePixelRatio||1;if(!w)return;cv.width=w*d;cv.height=h*d;cx.setTransform(d,0,0,d,0,0);cx.clearRect(0,0,w,h);
-  const y=v=>h-6-(Math.max(48,Math.min(140,v))-48)/(112-48)*(h-12),x=i=>i/(pts.length-1)*w,col=S.irregular?'#FF7366':'#3CC8A9';
-  cx.strokeStyle='rgba(147,167,175,.12)';cx.lineWidth=1;[60,100].forEach(g=>{cx.beginPath();cx.moveTo(0,y(g));cx.lineTo(w,y(g));cx.stroke();});
+  const y=v=>h*.62-v*h*.58,x=i=>i/(pts.length-1)*w,col=S.irregular?'#FF7366':'#3CC8A9';
+  cx.strokeStyle='rgba(147,167,175,.12)';cx.lineWidth=1;[0,.5].forEach(g=>{cx.beginPath();cx.moveTo(0,y(g));cx.lineTo(w,y(g));cx.stroke();});
   const g=cx.createLinearGradient(0,0,0,h);g.addColorStop(0,S.irregular?'rgba(255,115,102,.22)':'rgba(60,200,169,.2)');g.addColorStop(1,'rgba(0,0,0,0)');
   cx.beginPath();pts.forEach((v,i)=>i?cx.lineTo(x(i),y(v)):cx.moveTo(x(i),y(v)));cx.strokeStyle=col;cx.lineWidth=1.8;cx.lineJoin='round';cx.stroke();
   cx.lineTo(w,h);cx.lineTo(0,h);cx.closePath();cx.fillStyle=g;cx.fill();
   cx.beginPath();cx.arc(w-3,y(pts[pts.length-1]),3,0,7);cx.fillStyle=col;cx.fill();}
-function tick(){let v=S.hrBase+(Math.random()*2-1)*S.jitter;if(S.irregular&&Math.random()<.4)v+=Math.random()*46-16;pts.push(v);pts.shift();$('#hr').innerHTML=Math.round(v)+'<small>bpm</small>';draw();}
+function tick(){let v=S.hrBase+(Math.random()*2-1)*S.jitter;if(S.irregular&&Math.random()<.4)v+=Math.random()*46-16;
+  const amp=S.irregular?.55+Math.random()*.7:.92+Math.random()*.12,gap=S.irregular?Math.floor(Math.random()*9)-2:Math.round(68/Math.max(50,v)*2);
+  const beat=BEAT.map(b=>b*amp);if(S.irregular&&Math.random()<.3)beat.splice(5,0,0,-.05,.3,-.1);
+  const seg=gap>0?beat.concat(Array(gap).fill(0)):beat.slice(0,beat.length+gap);
+  pts.push(...seg);pts=pts.slice(-200);$('#hr').innerHTML=Math.round(v)+'<small>bpm</small>';draw();}
 addEventListener('resize',draw);
 
 /* renderers */
@@ -439,10 +446,10 @@ function stageHTML(key,title,sub,body,extra=''){const st=S.st[key];return `<div 
 function renderStages(){
   const a=S.st.ai,n=S.st.nurse,d=S.st.doctor,i=S.st.ins;
   $('#st-ai').innerHTML=stageHTML('ai','AI','Sees every reading',a.flag?kv([['Flag',a.flag],['Signal',a.signal,1],['Priority',a.priority],['Routed to',a.route]]):'<p class="empty">Watching heart rate, HRV, sleep, SpO₂ and BP trend. Nothing unusual.</p>');
-  $('#st-nurse').innerHTML=stageHTML('nurse','Nurse','Faith Njeri · sees flagged members',n.flag?kv([['Flag',n.flag],['Readings',n.readings,1],['Action',n.action]]):'<p class="empty">No open flags for Amani. Flags arrive here the moment the AI raises them.</p>');
-  $('#st-doctor').innerHTML=stageHTML('doctor','Doctor','Dr. Mwangi · sees escalations only',d.finding?kv([['Referred by','Nurse Faith Njeri'],['Finding',d.finding],['Plan',d.plan]]):`<p class="empty">${d.note||'No referral. A doctor only sees a member when a nurse escalates.'}</p>`);
-  $('#st-ins').innerHTML=stageHTML('ins','Insurer','Jubilee · sees pooled data',i.event?kv([['Member','<span class="redact">Amani Wanjiru</span>'],['Event',i.event],['Care request','<span class="redact">'+(i.request||'None open')+'</span>'],['Readings','Never shared one by one']]):'<p class="empty">Group numbers only. Named care requests appear only if the member opts in.</p>',
-    `<label class="switch"><input type="checkbox" id="consent" ${S.consent?'checked':''}><span><b>Amani shares her record</b>For care approval only. Discount 8% → 15%.</span></label>`);
+  $('#st-nurse').innerHTML=stageHTML('nurse','Nurse','Faith Njeri · flagged members',n.flag?kv([['Flag',n.flag],['Readings',n.readings,1],['Action',n.action]]):'<p class="empty">No open flags for Amani. Flags arrive here the moment the AI raises them.</p>');
+  $('#st-doctor').innerHTML=stageHTML('doctor','Doctor','Dr. Mwangi · escalations only',d.finding?kv([['Referred by','Nurse Faith Njeri'],['Finding',d.finding],['Plan',d.plan]]):`<p class="empty">${d.note||'No referral. A doctor only sees a member when a nurse escalates.'}</p>`);
+  $('#st-ins').innerHTML=stageHTML('ins','Insurer','Jubilee · pooled data',i.event?kv([['Member','<span class="redact">Amani Wanjiru</span>'],['Event',i.event],['Care request','<span class="redact">'+(i.request||'None open')+'</span>'],['Readings','Pooled only']]):'<p class="empty">Group numbers only. Named care requests appear only if the member opts in.</p>',
+    `<label class="switch"><input type="checkbox" id="consent" ${S.consent?'checked':''}><span><b>Amani shares her record</b>Care approval only. 8% → 15% off.</span></label>`);
   $('#st-ins').classList.toggle('consented',S.consent);
   $('#consent').onchange=e=>{S.consent=e.target.checked;$('#st-ins').classList.toggle('consented',S.consent);};
   Object.keys(S.st).forEach(k=>{const el=$('#st-'+k);el.classList.toggle('active',S.active===k);el.classList.toggle('done',!!S.done[k]&&S.active!==k);});

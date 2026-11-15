@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-15T20:49:25.147Z",
+        "reason": "Claude judged false positive: .cmp-wrap is a bordered scroll wrapper whose table cells carry 14px padding; list items carry 12px padding-block above their border"
+      }
+    ]
+  }
+}
