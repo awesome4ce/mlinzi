@@ -8,20 +8,20 @@ related_targets: []
 # Surface: Mlinzi demo (index.html)
 
 Mode: Experience. The demo is the work; it is clicked through live on a classroom projector at Week 10.
-Audience and job: GENE 225 panel must remember the handoff, one health event passing band, AI, nurse, doctor, insurer, each seeing their own slice. Must not feel too busy to present. Live scenarios (BP, rhythm, sleep/stress) are binding; structure is open.
+Audience and job: GENE 225 panel must remember the handoff, one health event passing band, AI, nurse, doctor, insurer, each seeing their own slice. Must not feel too busy to present. Live scenarios (BP with cuff pause, rhythm, sleep/stress) are binding; structure is open.
 
 ## Direction contract
 
-THESIS: The care chain written into the patient's own clinic book: every handoff is a dated entry stamped by whoever acted. Refuses the category default of a phone mockup beside a dashboard grid.
+THESIS: Mlinzi as a live care pipeline: one signal visibly travels from the band through AI, nurse, doctor and insurer, and every stage's own view updates in the same screen. Refuses both the phone-mockup-beside-dashboard default and any paper metaphor.
 
-OWN-WORLD: Crisp white ruled pages with blue rules and a red margin line, one open spread on a gutter, set on a deep exercise-book-cover green. Rubber-stamp inks own the colour: Mlinzi green, nurse violet, doctor red, insurer blue. Clinicians write in a legible hand; printed form labels in condensed caps; data in a plain workhorse sans. No cards, no shadows beyond the book itself.
+OWN-WORLD: Dark, sleek, data-forward. A deep blue-green ink ground with quiet raised panels and hairline borders; one warm amber signal colour (the guardian's lamp) for the live event; one muted ink per actor (AI teal, nurse violet, doctor coral, insurer blue). Geist for interface and headings, Geist Mono for every number and timestamp. No glows, no gradients on text, no paper.
 
-STORY: The panel sees Amani's book, picks a scenario tab, and watches entries write and stamp themselves in order; below, three carbon copies show what the nurse, doctor, and insurer each receive, the insurer's copy redacted unless Amani consents.
+STORY: The presenter presses 1, 2 or 3; the panel watches the pulse move stage to stage while each stage shows exactly what that actor sees, the insurer stage redacted unless Amani consents. Below: the insurer's pooled numbers, the competitive comparison, the moat, and the two plans.
 
-FIRST VIEWPORT: The open book fills the width. Left page: printed member header, a glued-in heart-rate strip running live, three readings. Right page: the entries. Coloured index tabs on the book's fore-edge are the scenario controls, the primary action.
+FIRST VIEWPORT: Scenario switcher top right of the hero. Left: Amani's live vitals panel (large heart-rate number, live waveform, four metrics, status). Right: four stage columns joined by a connector the pulse travels along. Under them, a monospaced event log. All of it inside 1280x720.
 
-FORM: Clinic outpatient book, candidate 1 of 7 (Impeccable's pick). seed:4f76466583c14801
+FORM: seed: none (pinned). User's words: "this is supposed to be a tech, not a fucking notebook entry app", "make things look sleak and mdoern", "its own identity but be data forward", theme "Dark".
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
 
-Signature interaction: each entry writes on left to right, then its stamp lands with a short press; one orchestrated sequence per scenario.
+Signature interaction: keyboard-driven presenting (1, 2, 3 run scenarios; R resets; C takes the cuff reading), with the amber pulse travelling the connector into each stage as it activates.

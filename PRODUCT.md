@@ -41,6 +41,8 @@ Other wearables give people numbers. Mlinzi gives them a Kenyan nurse and doctor
 ## Brand Commitments
 
 - Name: Mlinzi, meaning "guardian" in Swahili.
+- Mlinzi presents as a tech product: dark, sleek, modern, and data-forward, with its own identity rather than borrowed from any one company. The user rejected the paper/notebook metaphor ("this is supposed to be a tech, not a notebook entry app"); do not bring back paper, handwriting, or stamp metaphors.
+- Single dark theme only.
 
 ## Evidence on Hand
 
