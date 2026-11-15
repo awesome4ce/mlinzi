@@ -1,0 +1,646 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-15T08:48:09+00:00",
+  "title": "Design System: Mlinzi Care Book",
+  "extensions": {
+    "colorMeta": {
+      "cover": {
+        "role": "primary",
+        "displayName": "Exercise-Book Cover Green",
+        "canonical": "#1E5A44",
+        "tonalRamp": [
+          "#020F09",
+          "#0B2C20",
+          "#194D3A",
+          "#346E57",
+          "#569078",
+          "#7EB29B",
+          "#AFD3C2",
+          "#DFF4EA"
+        ]
+      },
+      "cover-deep": {
+        "role": "primary",
+        "displayName": "Deep Cover Green",
+        "canonical": "#174836",
+        "tonalRamp": [
+          "#030E09",
+          "#102B21",
+          "#224B3B",
+          "#3D6C59",
+          "#5E8E7A",
+          "#85B09D",
+          "#B3D2C3",
+          "#E2F3EB"
+        ]
+      },
+      "stamp-ai": {
+        "role": "secondary",
+        "displayName": "Mlinzi AI Green",
+        "canonical": "#16683F",
+        "tonalRamp": [
+          "#000F05",
+          "#012E17",
+          "#02502D",
+          "#237248",
+          "#499468",
+          "#74B68D",
+          "#A8D6B8",
+          "#DCF6E5"
+        ]
+      },
+      "stamp-member": {
+        "role": "secondary",
+        "displayName": "Member Ink Blue",
+        "canonical": "#1D2F7A",
+        "tonalRamp": [
+          "#04091E",
+          "#15214C",
+          "#283C7F",
+          "#425BAA",
+          "#627DD0",
+          "#86A2EE",
+          "#B3C8FF",
+          "#E1EEFF"
+        ]
+      },
+      "stamp-nurse": {
+        "role": "secondary",
+        "displayName": "Nurse Violet",
+        "canonical": "#5B3AA6",
+        "tonalRamp": [
+          "#0D0521",
+          "#291651",
+          "#482A88",
+          "#6748B5",
+          "#876BDB",
+          "#A992F9",
+          "#CBBDFF",
+          "#EFE8FF"
+        ]
+      },
+      "stamp-doctor": {
+        "role": "secondary",
+        "displayName": "Doctor Red",
+        "canonical": "#C22F2B",
+        "tonalRamp": [
+          "#200000",
+          "#4F0000",
+          "#840001",
+          "#B21C1D",
+          "#DB4840",
+          "#FB766A",
+          "#FFACA0",
+          "#FFDFD7"
+        ]
+      },
+      "stamp-insurer": {
+        "role": "secondary",
+        "displayName": "Insurer Blue",
+        "canonical": "#1F57B8",
+        "tonalRamp": [
+          "#010923",
+          "#032156",
+          "#093B8E",
+          "#235BBD",
+          "#457FE3",
+          "#6EA4FF",
+          "#A3CAFF",
+          "#D9F0FF"
+        ]
+      },
+      "watch-amber": {
+        "role": "secondary",
+        "displayName": "Watch Amber",
+        "canonical": "#8F5300",
+        "tonalRamp": [
+          "#160700",
+          "#3C1C00",
+          "#663300",
+          "#8C5100",
+          "#B17230",
+          "#D1975F",
+          "#EAC099",
+          "#FFEAD3"
+        ]
+      },
+      "tab-yellow": {
+        "role": "tertiary",
+        "displayName": "Index Tab Yellow",
+        "canonical": "#F4C534",
+        "tonalRamp": [
+          "#140900",
+          "#382000",
+          "#5F3A00",
+          "#855900",
+          "#A87B00",
+          "#C89F1A",
+          "#E3C67C",
+          "#FDEDC4"
+        ]
+      },
+      "tab-salmon": {
+        "role": "tertiary",
+        "displayName": "Index Tab Salmon",
+        "canonical": "#F29A82",
+        "tonalRamp": [
+          "#190502",
+          "#40160A",
+          "#6D2A18",
+          "#964731",
+          "#BB6852",
+          "#DC8E79",
+          "#F3BAAA",
+          "#FFE6DC"
+        ]
+      },
+      "tab-sky": {
+        "role": "tertiary",
+        "displayName": "Index Tab Sky",
+        "canonical": "#9FD0EC",
+        "tonalRamp": [
+          "#030D13",
+          "#0E2836",
+          "#1E475C",
+          "#396780",
+          "#5A89A3",
+          "#81ACC4",
+          "#B0CEE0",
+          "#E0F2FC"
+        ]
+      },
+      "marker": {
+        "role": "tertiary",
+        "displayName": "Highlighter",
+        "canonical": "#FCEB7A",
+        "tonalRamp": [
+          "#100B00",
+          "#2F2500",
+          "#514100",
+          "#736100",
+          "#958300",
+          "#B6A743",
+          "#D5CB8B",
+          "#F5F0CC"
+        ]
+      },
+      "ncr-nurse": {
+        "role": "tertiary",
+        "displayName": "NCR Yellow",
+        "canonical": "#FFF3BF",
+        "tonalRamp": [
+          "#0E0B02",
+          "#2B250A",
+          "#4B4218",
+          "#6C6132",
+          "#8E8352",
+          "#B0A67A",
+          "#D1CAAB",
+          "#F3EFDD"
+        ]
+      },
+      "ncr-doctor": {
+        "role": "tertiary",
+        "displayName": "NCR Pink",
+        "canonical": "#FDE1E4",
+        "tonalRamp": [
+          "#0F090A",
+          "#2E2123",
+          "#503C3E",
+          "#725A5D",
+          "#947B7E",
+          "#B69EA1",
+          "#D5C4C6",
+          "#F6ECED"
+        ]
+      },
+      "ncr-insurer": {
+        "role": "tertiary",
+        "displayName": "NCR Blue",
+        "canonical": "#E1ECFB",
+        "tonalRamp": [
+          "#090B0F",
+          "#20252C",
+          "#3B434D",
+          "#59626F",
+          "#798391",
+          "#9DA6B2",
+          "#C3CAD3",
+          "#EBEFF4"
+        ]
+      },
+      "ecg-grid": {
+        "role": "tertiary",
+        "displayName": "ECG Pink",
+        "canonical": "#F2C2CB",
+        "tonalRamp": [
+          "#12080A",
+          "#341E22",
+          "#59373E",
+          "#7D545C",
+          "#A0757D",
+          "#C298A0",
+          "#DEC0C6",
+          "#FBE9EC"
+        ]
+      },
+      "page": {
+        "role": "neutral",
+        "displayName": "Page White",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ]
+      },
+      "rule-blue": {
+        "role": "neutral",
+        "displayName": "Rule Blue",
+        "canonical": "#C6D7EF",
+        "tonalRamp": [
+          "#080B11",
+          "#1E2631",
+          "#364354",
+          "#546277",
+          "#748499",
+          "#98A6BB",
+          "#C0CAD9",
+          "#E9EFF8"
+        ]
+      },
+      "margin-red": {
+        "role": "neutral",
+        "displayName": "Margin Red",
+        "canonical": "#E05A4E",
+        "tonalRamp": [
+          "#1F0000",
+          "#4C0102",
+          "#800407",
+          "#AD2923",
+          "#D55045",
+          "#F57B6E",
+          "#FFAFA3",
+          "#FFE0D8"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Print Ink",
+        "canonical": "#17202A",
+        "tonalRamp": [
+          "#090B0F",
+          "#20262C",
+          "#3A434D",
+          "#58626E",
+          "#788490",
+          "#9CA6B2",
+          "#C2CAD3",
+          "#EBEFF4"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Faded Print",
+        "canonical": "#566371",
+        "tonalRamp": [
+          "#080C0F",
+          "#1F262D",
+          "#38434F",
+          "#566371",
+          "#768493",
+          "#9AA7B4",
+          "#C1CAD4",
+          "#EAEFF5"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Pencil Line",
+        "canonical": "#D9E0E8",
+        "tonalRamp": [
+          "#0A0B0D",
+          "#222529",
+          "#3D4348",
+          "#5C6269",
+          "#7D838A",
+          "#A0A6AC",
+          "#C5CACE",
+          "#ECEFF2"
+        ]
+      },
+      "hand-blue": {
+        "role": "neutral",
+        "displayName": "Hand Ink",
+        "canonical": "#1D2F7A",
+        "tonalRamp": [
+          "#04091E",
+          "#15214C",
+          "#283C7F",
+          "#425BAA",
+          "#627DD0",
+          "#86A2EE",
+          "#B3C8FF",
+          "#E1EEFF"
+        ]
+      },
+      "carbon": {
+        "role": "neutral",
+        "displayName": "Carbon Blue",
+        "canonical": "#2B3170",
+        "tonalRamp": [
+          "#07091B",
+          "#1C2145",
+          "#343C74",
+          "#505A9E",
+          "#707CC2",
+          "#93A0E2",
+          "#BCC6F6",
+          "#E7EDFF"
+        ]
+      },
+      "cover-ink": {
+        "role": "neutral",
+        "displayName": "Cover Ink",
+        "canonical": "#F1F7F3",
+        "tonalRamp": [
+          "#0A0C0B",
+          "#232624",
+          "#3F4340",
+          "#5E635F",
+          "#7E8480",
+          "#A1A6A3",
+          "#C6CAC8",
+          "#EDEFEE"
+        ]
+      },
+      "cover-muted": {
+        "role": "neutral",
+        "displayName": "Cover Muted",
+        "canonical": "#BDD8CB",
+        "tonalRamp": [
+          "#070D0A",
+          "#1B2822",
+          "#33473E",
+          "#4F685C",
+          "#70897D",
+          "#94ABA0",
+          "#BDCEC6",
+          "#E8F1EC"
+        ]
+      },
+      "cover-rule": {
+        "role": "neutral",
+        "displayName": "Cover Rule",
+        "canonical": "rgba(241,247,243,.22)",
+        "tonalRamp": [
+          "#0A0C0B",
+          "#232624",
+          "#3F4340",
+          "#5E635F",
+          "#7E8480",
+          "#A1A6A3",
+          "#C6CAC8",
+          "#EDEFEE"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Section heads on the cover; the page h1 at clamp(28px,3vw,40px)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Printed form heads: book title, slip headings, plan names (23-25px)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Sub-heads on paper: Entries, sheet headings."
+      },
+      "hand": {
+        "displayName": "Hand",
+        "purpose": "Every handwritten entry, field value and carbon-copy value; sits on the 40px rule."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text at projector size."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Live readings, heart rate, return figures, prices; tabular numerals."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Printed field labels and column heads, uppercase."
+      },
+      "stamp": {
+        "displayName": "Stamp",
+        "purpose": "Stamp impressions only: verb over an 11px actor name."
+      }
+    },
+    "shadows": [
+      {
+        "name": "book-block",
+        "value": "0 34px 60px -34px rgba(0,0,0,.6), 0 3px 0 #DDE3EA, 0 6px 0 #C8D1DB",
+        "purpose": "The open book only; the solid layers are its stacked page edges."
+      },
+      {
+        "name": "gutter",
+        "value": "linear-gradient(90deg, transparent, rgba(23,32,42,.07) 46%, rgba(23,32,42,.16) 50%, rgba(23,32,42,.07) 54%, transparent)",
+        "purpose": "56px centre fold of the spread."
+      }
+    ],
+    "motion": [
+      {
+        "name": "write",
+        "value": ".95s cubic-bezier(.16,1,.3,1) clip-path inset reveal",
+        "purpose": "Entries and slip values write on left to right."
+      },
+      {
+        "name": "press",
+        "value": ".32s cubic-bezier(.3,1.5,.5,1), .8s delay, scale 1.6 to 1",
+        "purpose": "Stamp lands after its entry writes."
+      },
+      {
+        "name": "tab-lift",
+        "value": ".2s cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Index tab hover and pressed travel."
+      },
+      {
+        "name": "tick",
+        "value": ".2s cubic-bezier(.3,1.5,.5,1)",
+        "purpose": "Consent tick springs in."
+      },
+      {
+        "name": "step-cadence",
+        "value": "2700ms (1400ms reduced motion)",
+        "purpose": "Interval between scenario entries."
+      },
+      {
+        "name": "bar-grow",
+        "value": ".6s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Cohort bars resize as runs add to them."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xs",
+        "value": "480px"
+      },
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "720px"
+      },
+      {
+        "name": "spread",
+        "value": "900px"
+      },
+      {
+        "name": "slips",
+        "value": "980px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Scenario Index Tab",
+      "kind": "button",
+      "refersTo": "tab-index",
+      "description": "Coloured paper tab on the book's fore-edge; the primary action, one per scenario.",
+      "html": "<div class=\"ds-tabs\"><button class=\"ds-tab\" style=\"--c:#F4C534\" aria-pressed=\"true\">Rising BP<small>Cuff confirms, doctor treats</small></button><button class=\"ds-tab\" style=\"--c:#F29A82\">Irregular rhythm<small>2 a.m. flag, same-day ECG</small></button></div>",
+      "css": ".ds-tabs{display:flex;gap:6px;align-items:flex-end;padding-top:10px;border-bottom:3px solid #fff} .ds-tab{flex:1;min-height:60px;border:0;border-radius:8px 8px 0 0;padding:8px 12px 14px;text-align:left;cursor:pointer;font:600 16px/1.2 Barlow,system-ui,sans-serif;color:#1E1A10;background:var(--c);transform:translateY(6px);transition:transform .2s cubic-bezier(.2,.8,.2,1),filter .2s} .ds-tab small{display:block;font-weight:400;font-size:13px;opacity:.78;margin-top:2px} .ds-tab:hover{transform:translateY(0)} .ds-tab[aria-pressed=\"true\"]{transform:translateY(-4px)} .ds-tab:focus-visible{outline:3px solid #F4C534;outline-offset:3px}"
+    },
+    {
+      "name": "Stamp",
+      "kind": "custom",
+      "refersTo": "stamp-nurse",
+      "description": "Rubber-stamp impression in the acting actor's ink; lands with a short press after its entry writes.",
+      "html": "<div class=\"ds-stamps\"><span class=\"ds-stamp\" style=\"--c:#16683F\"><b>Flagged</b><small>Mlinzi AI</small></span><span class=\"ds-stamp\" style=\"--c:#5B3AA6;--r:-6deg\"><b>Called</b><small>Nurse Njeri</small></span><span class=\"ds-stamp\" style=\"--c:#C22F2B\"><b>Treated</b><small>Dr. Mwangi</small></span><span class=\"ds-stamp\" style=\"--c:#1F57B8;--r:3deg\"><b>Counted</b><small>Jubilee</small></span></div>",
+      "css": ".ds-stamps{display:flex;gap:18px;flex-wrap:wrap;padding:16px;background:#fff} .ds-stamp{display:inline-flex;flex-direction:column;align-items:center;gap:1px;padding:5px 10px 4px;border:2.5px solid var(--c);border-radius:5px;color:var(--c);font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.06em;line-height:1;transform:rotate(var(--r,-4deg));opacity:.92;mix-blend-mode:multiply;animation:ds-press .32s cubic-bezier(.3,1.5,.5,1) both} .ds-stamp b{font-size:19px} .ds-stamp small{font-size:11px;letter-spacing:.1em} @keyframes ds-press{0%{opacity:0;transform:rotate(var(--r,-4deg)) scale(1.6)}100%{opacity:.92;transform:rotate(var(--r,-4deg)) scale(1)}}"
+    },
+    {
+      "name": "Ruled Entry",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Handwritten entry on the 40px ruled page with margin time and a stamp; writes on left to right.",
+      "html": "<ol class=\"ds-entries\"><li class=\"ds-day\">Tue 17 Nov, overnight</li><li class=\"ds-entry\"><time>02:14</time><p>Irregular rhythm for <em>38 minutes</em> during sleep.</p><span class=\"ds-stamp-sm\">Urgent</span></li></ol>",
+      "css": ".ds-entries{list-style:none;margin:0;padding:4px 20px 18px 96px;background:#fff linear-gradient(90deg,transparent 78px,#E05A4E 78px,#E05A4E 80px,transparent 80px);position:relative} .ds-entries::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(180deg,transparent 0,transparent 39px,#C6D7EF 39px,#C6D7EF 40px);background-position:0 6px;pointer-events:none} .ds-day{height:40px;display:flex;align-items:flex-end;padding-bottom:6px;font:600 13px Barlow,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#E05A4E} .ds-entry{position:relative;display:grid;grid-template-columns:1fr auto;gap:14px} .ds-entry time{position:absolute;left:-92px;width:64px;text-align:right;top:9px;font:600 15px Barlow,sans-serif;color:#566371} .ds-entry p{margin:0;font:400 21px/40px Kalam,cursive;color:#1D2F7A;animation:ds-write .95s cubic-bezier(.16,1,.3,1) both} .ds-entry em{font-style:normal;font-weight:700} .ds-stamp-sm{margin-top:6px;padding:5px 10px 4px;border:2.5px solid #C22F2B;border-radius:5px;color:#C22F2B;font:700 19px/1 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.06em;transform:rotate(-4deg);height:fit-content} @keyframes ds-write{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}"
+    },
+    {
+      "name": "Carbon Copy Slip",
+      "kind": "card",
+      "refersTo": "slip-nurse",
+      "description": "NCR-tinted slip per receiving actor, scalloped top, heading and rule in the actor's ink, handwritten values.",
+      "html": "<article class=\"ds-slip\"><div class=\"ds-slip-head\"><h3>Nurse's copy</h3><span>07:45 · Review today</span></div><dl><dt>Flag</dt><dd>BP trend rising 9 days</dd><dt>Readings</dt><dd>Cuff 148/94</dd></dl><p class=\"ds-hint\">Sees name, readings, AI summary, call notes.</p></article>",
+      "css": ".ds-slip{--c:#5B3AA6;background:#FFF3BF radial-gradient(circle at 7px -1px,#1E5A44 4px,transparent 4.5px) 0 0/14px 8px repeat-x;color:#17202A;padding:24px 22px 18px;max-width:380px;font-family:Barlow,sans-serif} .ds-slip-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;border-bottom:2px solid var(--c);padding-bottom:6px;margin-bottom:10px} .ds-slip-head h3{margin:0;font:700 23px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--c)} .ds-slip-head span{font-size:14px;color:#566371} .ds-slip dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 14px} .ds-slip dt{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#566371;padding-top:6px} .ds-slip dd{margin:0;font:400 20px/1.35 Kalam,cursive;color:#2B3170;text-shadow:0 0 .6px rgba(43,49,112,.55)} .ds-hint{margin:12px 0 0;font-size:14px;color:#566371;border-top:1px dashed rgba(23,32,42,.25);padding-top:8px}"
+    },
+    {
+      "name": "Paper Sheet",
+      "kind": "card",
+      "refersTo": "sheet",
+      "description": "Flat white sheet on the cover for tables and lists; no shadow, ruled rows, tabular figures.",
+      "html": "<div class=\"ds-cover\"><div class=\"ds-sheet\"><h3>Guardian</h3><table><tr><th>Active members</th><td>112</td></tr><tr><th>Retention</th><td>91%</td></tr></table></div></div>",
+      "css": ".ds-cover{background:#1E5A44;padding:24px} .ds-sheet{background:#fff;color:#17202A;border-radius:2px;padding:22px 26px 24px;font-family:Barlow,sans-serif} .ds-sheet h3{margin:0 0 8px;font:700 21px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase;border-bottom:2px solid #17202A;padding-bottom:6px} .ds-sheet table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums} .ds-sheet th{text-align:left;font-weight:500;color:#566371;font-size:17px;padding:9px 0;border-bottom:1px solid #C6D7EF} .ds-sheet td{text-align:right;font-weight:600;font-size:24px;padding:9px 0;border-bottom:1px solid #C6D7EF}"
+    },
+    {
+      "name": "Cover Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky deep-green bar with condensed wordmark and cover-muted links.",
+      "html": "<div class=\"ds-top\"><a class=\"ds-mark\" href=\"#\"><b>Mlinzi</b><span>Swahili for \"guardian\"</span></a><nav><a href=\"#\">Care book</a><a href=\"#\">Who sees what</a><a href=\"#\">Insurer return</a></nav></div>",
+      "css": ".ds-top{display:flex;align-items:center;gap:24px;min-height:56px;padding:6px 20px;background:#174836;color:#F1F7F3;font-family:Barlow,sans-serif} .ds-mark{display:flex;align-items:baseline;gap:10px;text-decoration:none;color:inherit;margin-right:auto} .ds-mark b{font:700 27px 'Barlow Condensed',sans-serif;letter-spacing:.04em;text-transform:uppercase} .ds-mark span{font-size:14px;color:#BDD8CB} .ds-top nav{display:flex;gap:2px} .ds-top nav a{text-decoration:none;font-weight:500;font-size:15px;color:#BDD8CB;padding:7px 11px;border-radius:5px} .ds-top nav a:hover{color:#F1F7F3;background:rgba(255,255,255,.07)} .ds-top a:focus-visible{outline:3px solid #F4C534;outline-offset:3px}"
+    },
+    {
+      "name": "Cuff Prompt",
+      "kind": "button",
+      "refersTo": "cuff-prompt",
+      "description": "Dashed member-ink prompt asking the member for a home-cuff reading.",
+      "html": "<button class=\"ds-cuff\"><b>Take a home cuff reading</b><span>The band only shows a trend. Press to send a clinical reading to the nurse.</span></button>",
+      "css": ".ds-cuff{width:100%;max-width:420px;text-align:left;cursor:pointer;background:#FFF6CC;border:2px dashed #1D2F7A;border-radius:5px;padding:10px 14px;color:#17202A;font:17px/1.35 Barlow,sans-serif} .ds-cuff b{display:block;font-size:18px;color:#1D2F7A} .ds-cuff span{color:#566371;font-size:15px} .ds-cuff:hover{background:#FFEFA8} .ds-cuff:focus-visible{outline:3px solid #F4C534;outline-offset:3px}"
+    },
+    {
+      "name": "Text Link Button",
+      "kind": "button",
+      "refersTo": "button-link",
+      "description": "Unboxed underlined insurer-blue action at a page foot.",
+      "html": "<button class=\"ds-link\">Start a fresh page</button>",
+      "css": ".ds-link{background:none;border:0;padding:4px 0;font:600 14px Barlow,sans-serif;color:#1F57B8;cursor:pointer;text-decoration:underline;text-underline-offset:3px} .ds-link:hover{color:#17202A} .ds-link:focus-visible{outline:3px solid #F4C534;outline-offset:3px}"
+    },
+    {
+      "name": "Consent Checkbox",
+      "kind": "input",
+      "refersTo": "",
+      "description": "Ink-bordered square with a hand-ink tick; unredacts the insurer's copy.",
+      "html": "<label class=\"ds-consent\"><input type=\"checkbox\" checked><span><b>Amani shares her record for care approval</b>Unblocks her name and care requests.</span></label>",
+      "css": ".ds-consent{display:flex;gap:12px;align-items:flex-start;cursor:pointer;font:15px/1.4 Barlow,sans-serif;color:#17202A;background:#E1ECFB;padding:12px} .ds-consent b{display:block} .ds-consent input{appearance:none;flex:none;width:24px;height:24px;margin:1px 0 0;border:2px solid #17202A;border-radius:2px;background:#fff;cursor:pointer;display:grid;place-items:center} .ds-consent input::after{content:'';width:12px;height:7px;border-left:3px solid #1D2F7A;border-bottom:3px solid #1D2F7A;transform:rotate(-45deg) translate(1px,-2px) scale(0);transition:transform .2s cubic-bezier(.3,1.5,.5,1)} .ds-consent input:checked::after{transform:rotate(-45deg) translate(1px,-2px) scale(1)} .ds-consent input:focus-visible{outline:3px solid #F4C534;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Clinic Book",
+    "overview": "Everything is paper set on an exercise-book cover. The page background is a deep cover green; on it sit white paper objects: one open book spread with a centre gutter, carbon-copy slips in NCR tints, and plain white sheets for tables and plans. Nothing floats, glows or sits on a card. Depth comes from the paper itself: the book's stacked page edges, its gutter shading, the tape on a glued-in strip.\n\nColour belongs to rubber-stamp ink. Each actor in the care chain owns one ink (Mlinzi AI green, member blue, nurse violet, doctor red, insurer blue), and that ink marks their stamp, their carbon copy's heading and rule, and nothing else. Clinicians and the member \"write\" in a legible hand; printed form labels are condensed caps; data is set in a plain workhorse sans with tabular figures. The system is single-theme and light only: the user asked for no dark mode.\n\nDensity is tuned for a classroom projector: body text is 17px, handwriting 19 to 22px, live figures 24 to 28px, and every screen reads as one paper object at a time.",
+    "keyCharacteristics": [
+      "Deep cover-green ground, white paper objects, no cards",
+      "One stamp ink per actor, used for that actor only",
+      "Three voices: condensed printed caps, a legible hand, a tabular sans for data",
+      "Blue ruled lines and a red margin line as structure, not decoration",
+      "Motion is writing and stamping, one orchestrated sequence at a time"
+    ],
+    "rules": [
+      {
+        "name": "The One Ink Per Actor Rule",
+        "body": "An actor's stamp ink appears only where that actor acted or receives: their stamp, their copy's heading and rule. Never use a stamp ink as a general accent.",
+        "section": "colors"
+      },
+      {
+        "name": "The Paper Holds the Colour Rule",
+        "body": "Colour other than the cover green lives on paper (stamps, tabs, slips, highlighter). Text set on the cover is cover-ink or cover-muted only.",
+        "section": "colors"
+      },
+      {
+        "name": "The Who Wrote It Rule",
+        "body": "The typeface says who produced the text. A person's words are in the hand; the form's printing is condensed caps; machine data is Barlow with tabular figures. Do not set data in the hand or a person's note in the sans.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ruled Hand Rule",
+        "body": "Handwriting in the book sits on the 40px rule: its line-height equals the rule gap so every line lands on a blue rule.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ruled Page Rule",
+        "body": "Entries ride a 40px rule gap (blue rule lines drawn by a repeating gradient that scrolls with the content). Day headings occupy exactly one rule.",
+        "section": "layout"
+      },
+      {
+        "name": "The Only the Book Lifts Rule",
+        "body": "The book is the one object with depth. Every other paper object lies flat on the cover; do not add shadows to slips, sheets, tabs or buttons, and do not reuse the page-edge layers anywhere but a book.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** give every new actor or role a single stamp ink and keep it to their stamp, copy and flagged values.",
+      "**Do** put people's words in Kalam on a ruled line, printed labels in 12px label caps, and numbers in Barlow 600 with tabular figures.",
+      "**Do** set new content as white paper on the cover green: a sheet (2px radius, no shadow) under a cover section head.",
+      "**Do** show the illustrative-data label in the marker highlight wherever pilot figures appear.",
+      "**Do** honour reduced motion: no write or press animations, instant scrolling, slower step cadence (1.4s).",
+      "**Do** keep text at projector sizes: 17px body minimum on paper, 12px only for caps labels."
+    ],
+    "donts": [
+      "**Don't** add a dark theme; the system is single-theme light by the user's decision.",
+      "**Don't** use a stamp ink as a decorative accent or put two actors' inks on one object.",
+      "**Don't** add shadows, cards or floating panels; only the book has depth.",
+      "**Don't** put coloured text directly on the cover; colour lives on paper.",
+      "**Don't** set data or UI copy in the handwriting face, or handwriting off its rule."
+    ]
+  }
+}
