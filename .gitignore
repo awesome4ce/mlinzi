@@ -1,0 +1,4 @@
+# Personal Claude Code settings (Impeccable hooks live here; run `npx impeccable install` to get them)
+.claude/settings.local.json
+# Platform-specific Impeccable engine binary, fetched on demand
+.claude/skills/impeccable/scripts/bin/

@@ -15,3 +15,7 @@ The whole site is one file: `index.html` (HTML, CSS, and vanilla JS, no build st
 3. Commit and push to `main`. Vercel redeploys automatically.
 
 Views are routed by URL hash: `#member`, `#care`, `#insurer`, `#compare`.
+
+## Design tooling
+
+The repo includes the [Impeccable](https://impeccable.style) design skill for Claude Code in `.claude/`. To get its engine and hooks on your machine, run `npx impeccable install --project --providers=claude` in the repo, then `/impeccable` in Claude Code.
