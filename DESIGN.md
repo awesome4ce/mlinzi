@@ -1,5 +1,5 @@
 ---
-name: Mlinzi
+name: Moyo
 description: A dark, data-forward care console where one amber signal travels from the band through AI, nurse, doctor and insurer.
 colors:
   ink-ground: "#070D10"
@@ -20,76 +20,76 @@ colors:
   dim: "#5D717A"
 typography:
   display:
-    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
+    fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif"
     fontSize: "clamp(32px, 3.6vw, 46px)"
     fontWeight: 700
     lineHeight: 1.1
     letterSpacing: "-0.03em"
     fontVariation: "wdth 110"
   headline:
-    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
+    fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif"
     fontSize: "clamp(28px, 2.7vw, 36px)"
     fontWeight: 700
     lineHeight: 1.1
     letterSpacing: "-0.03em"
     fontVariation: "wdth 110"
   title:
-    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
+    fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif"
     fontSize: "15px"
     fontWeight: 700
     lineHeight: 1.1
     letterSpacing: "0em"
     fontVariation: "wdth 100"
   body:
-    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
+    fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif"
     fontSize: "15px"
     fontWeight: 400
     lineHeight: 1.5
     letterSpacing: "0em"
   lede:
-    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
+    fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif"
     fontSize: "17px"
     fontWeight: 400
     lineHeight: 1.55
     letterSpacing: "0em"
   label:
-    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
+    fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif"
     fontSize: "12px"
     fontWeight: 500
     lineHeight: 1.5
     letterSpacing: "0.02em"
   label-key:
-    fontFamily: "Archivo, ui-sans-serif, system-ui, sans-serif"
+    fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif"
     fontSize: "12px"
     fontWeight: 500
     lineHeight: 1.5
     letterSpacing: "0.03em"
   reading-hero:
-    fontFamily: "Azeret Mono, ui-monospace, SF Mono, Menlo, monospace"
+    fontFamily: "Inter (tabular numerals), ui-monospace, SF Mono, Menlo, monospace"
     fontSize: "56px"
     fontWeight: 500
     lineHeight: 1
     letterSpacing: "-0.06em"
   reading-kpi:
-    fontFamily: "Azeret Mono, ui-monospace, SF Mono, Menlo, monospace"
+    fontFamily: "Inter (tabular numerals), ui-monospace, SF Mono, Menlo, monospace"
     fontSize: "34px"
     fontWeight: 500
     lineHeight: 1.2
     letterSpacing: "-0.04em"
   reading-metric:
-    fontFamily: "Azeret Mono, ui-monospace, SF Mono, Menlo, monospace"
+    fontFamily: "Inter (tabular numerals), ui-monospace, SF Mono, Menlo, monospace"
     fontSize: "22px"
     fontWeight: 500
     lineHeight: 1.25
     letterSpacing: "-0.01em"
   reading-inline:
-    fontFamily: "Azeret Mono, ui-monospace, SF Mono, Menlo, monospace"
+    fontFamily: "Inter (tabular numerals), ui-monospace, SF Mono, Menlo, monospace"
     fontSize: "15px"
     fontWeight: 400
     lineHeight: 1.35
     letterSpacing: "-0.01em"
   timestamp:
-    fontFamily: "Azeret Mono, ui-monospace, SF Mono, Menlo, monospace"
+    fontFamily: "Inter (tabular numerals), ui-monospace, SF Mono, Menlo, monospace"
     fontSize: "14px"
     fontWeight: 400
     lineHeight: 1.5
@@ -192,22 +192,22 @@ components:
 
 <!-- Recorded from the shipped index.html on 2026-11-15. Replaces the rejected "Clinic Book" paper system entirely. Provenance note: the independent finish reviewer's verdict pass was cut off by a rate limit; the last fix batch and the restyle that followed were scored by the build thread, not by the reviewer. -->
 
-# Design System: Mlinzi
+# Design System: Moyo
 
 ## Overview
 
 **Creative North Star: "The Guardian's Console"**
 
-Mlinzi is a dark operations console for care, not a marketing page and not a notebook. Everything sits on a deep blue-green ink ground; content lives in quietly raised panels drawn with hairline borders, a one-pixel lit top edge and a soft dropped shadow. The page is data-forward: every reading, price, count and timestamp is set in a monospaced face with tabular figures, so numbers line up like instrument readouts, while headings are set wide and heavy in Archivo so the product has a voice of its own.
+Moyo is a dark operations console for care, not a marketing page and not a notebook. Everything sits on a deep blue-green ink ground; content lives in quietly raised panels drawn with hairline borders, a one-pixel lit top edge and a soft dropped shadow. The page is data-forward: every reading, price, count and timestamp is set in a monospaced face with tabular figures, so numbers line up like instrument readouts, while headings are set wide and heavy in Inter so the product has a voice of its own.
 
-Colour is rationed by meaning. Mint is the brand: it marks sections, lights the KPIs, traces the heartbeat and stands for the AI. One warm amber, the guardian's lamp, belongs to the live signal alone: the pulse on the connector, the selected scenario, the cuff prompt, the scroll progress line, the Mlinzi column of the comparison. Each actor in the care chain owns one muted ink (AI mint, nurse violet, doctor coral, insurer blue) that colours only its stage mark, its state chip, its node on the track and its name in the log. Nothing glows, nothing is gradient-filled text, nothing is paper.
+Colour is rationed by meaning. Mint is the brand: it marks sections, lights the KPIs, traces the heartbeat and stands for the AI. One warm amber, the guardian's lamp, belongs to the live signal alone: the pulse on the connector, the selected scenario, the cuff prompt, the scroll progress line, the Moyo column of the comparison. Each actor in the care chain owns one muted ink (AI mint, nurse violet, doctor coral, insurer blue) that colours only its stage mark, its state chip, its node on the track and its name in the log. Nothing glows, nothing is gradient-filled text, nothing is paper.
 
 Density is presentation density: the whole first viewport fits 1280x720, panels are tight (13-22px padding) and type stays legible from the back of a room. Motion is the pipeline's own: the pulse travels, values rise into place, KPIs count up, bars grow, sections reveal on scroll, and every one of them has a complete resting state under reduced motion.
 
 **Key Characteristics:**
 - Deep blue-green ink ground with raised, hairline-bordered panels and a single faint mint wash top-right of the hero
 - Brand mint for KPIs, section marks and the AI; amber reserved for the live signal; one muted ink per actor
-- Archivo wide (110%) and heavy for headings; Azeret Mono with tabular numerals for every number and timestamp
+- Inter, semibold and tight for headings; Inter (tabular numerals) with tabular numerals for every number and timestamp
 - Hairline-grid tiles (1px gaps over the line colour) instead of nested boxes
 - Panels with an inset top highlight and a soft, long dropped shadow; no glows, no gradient text
 - Motion grammar of travel, rise, count and grow, all from a visible resting state
@@ -217,11 +217,11 @@ Density is presentation density: the whole first viewport fits 1280x720, panels 
 A near-black blue-green ground with cool, desaturated greys for text and one saturated accent per meaning.
 
 ### Primary
-- **Brand Mint** (`brand-mint`): the Mlinzi accent. Section marks (the 36x3px bar above every section heading), KPI figures, the "Demo data" live dot, the AI actor and the Guardian Plus card's border tint (`rgba(78,225,181,.45)`). Also the top of the hero's faint radial wash (`rgba(78,225,181,.09)`).
+- **Brand Mint** (`brand-mint`): the Moyo accent. Section marks (the 36x3px bar above every section heading), KPI figures, the "Demo data" live dot, the AI actor and the Moyo Plus card's border tint (`rgba(78,225,181,.45)`). Also the top of the hero's faint radial wash (`rgba(78,225,181,.09)`).
 - **Trace Mint** (`brand-trace`): a slightly dimmer mint for drawn lines, the ECG stroke and its area fill (`rgba(60,200,169,.2)`), and the "Yes" tick icon. Use it where mint must sit on the panel at thin weights.
 
 ### Secondary
-- **Signal Amber** (`signal-amber`): the guardian's lamp, used only for the live event. Track fill and pulse, selected scenario button, cuff prompt border and tint (`rgba(245,165,36,.1)`, hover `.16`), scroll progress line, the provenance tag, the Mlinzi column in the comparison (`color-mix(in oklab, signal 7%, panel)` with a 2px inset top rule), the "Partly" icon, the shield in the logo, text selection (`rgba(245,165,36,.35)`), the `accent-color` and the focus ring.
+- **Signal Amber** (`signal-amber`): the guardian's lamp, used only for the live event. Track fill and pulse, selected scenario button, cuff prompt border and tint (`rgba(245,165,36,.1)`, hover `.16`), scroll progress line, the provenance tag, the Moyo column in the comparison (`color-mix(in oklab, signal 7%, panel)` with a 2px inset top rule), the "Partly" icon, the shield in the logo, text selection (`rgba(245,165,36,.35)`), the `accent-color` and the focus ring.
 - **Signal Ink** (`signal-ink`): the only dark text in the system, used on amber fills (selected scenario, its kbd key at `rgba(26,18,4,.35)` border).
 
 ### Tertiary (actor inks)
@@ -247,11 +247,11 @@ A near-black blue-green ground with cool, desaturated greys for text and one sat
 
 ## Typography
 
-**Display Font:** Archivo, variable width and weight (with ui-sans-serif, system-ui fallback)
-**Body Font:** Archivo (same family, width 100%)
-**Label/Mono Font:** Azeret Mono 400-600 (with ui-monospace, SF Mono, Menlo fallback)
+**Display Font:** Inter, variable width and weight (with ui-sans-serif, system-ui fallback)
+**Body Font:** Inter (same family, width 100%)
+**Label/Mono Font:** Inter (tabular numerals) 400-600 (with ui-monospace, SF Mono, Menlo fallback)
 
-**Character:** Headings are Archivo set wide (font-stretch 110%, up to 112% in the logotype), heavy (700-800) and tight (-0.03em), which gives the console a broad, confident voice. Every figure and timestamp is Azeret Mono with tabular numerals and slightly tightened tracking, so values read as instrument output rather than prose.
+**Character:** Headings are Inter set wide (font-stretch 110%, up to 112% in the logotype), heavy (700-800) and tight (-0.03em), which gives the console a broad, confident voice. Every figure and timestamp is Inter (tabular numerals) with tabular numerals and slightly tightened tracking, so values read as instrument output rather than prose.
 
 ### Hierarchy
 - **Display** (700, `clamp(32px, 3.6vw, 46px)`, 1.1, -0.03em, width 110%): section headings ("What the insurer sees", "Plans"). Each carries a 36x3px mint mark above it.
@@ -261,14 +261,14 @@ A near-black blue-green ground with cool, desaturated greys for text and one sat
 - **Body** (400, 15px, 1.5): stage values, log lines, list copy; 14px for table cells, bar rows, plan features and sub-captions; 13px for fine print, legend, footer and chip text.
 - **Label** (500, 12px, 0.02em, muted): metric captions and KPI names, sentence case.
 - **Label Key** (500, 12px, 0.03em, uppercase, muted): the key in a key/value pair inside a stage card. Uppercase is permitted only here, directly above the value it names.
-- **Reading Hero** (Azeret Mono 500, 56px, 1, -0.06em): the live heart rate, with its unit in 15px Archivo muted.
-- **Reading KPI** (Azeret Mono 500, 34px, 1.2, -0.04em, mint): insurer KPI figures.
-- **Reading Metric** (Azeret Mono 500, 22px, 1.25): the four member metrics; the plan price is 26px/-0.03em.
-- **Reading Inline** (Azeret Mono 400, 15px): numeric values inside stage key/value pairs and the cost row of the comparison.
-- **Timestamp** (Azeret Mono 400, 14px, muted): event-log times; kbd keys are 11px with a 4px-radius hairline-strong border.
+- **Reading Hero** (Inter (tabular numerals) 500, 56px, 1, -0.06em): the live heart rate, with its unit in 15px Inter muted.
+- **Reading KPI** (Inter (tabular numerals) 500, 34px, 1.2, -0.04em, mint): insurer KPI figures.
+- **Reading Metric** (Inter (tabular numerals) 500, 22px, 1.25): the four member metrics; the plan price is 26px/-0.03em.
+- **Reading Inline** (Inter (tabular numerals) 400, 15px): numeric values inside stage key/value pairs and the cost row of the comparison.
+- **Timestamp** (Inter (tabular numerals) 400, 14px, muted): event-log times; kbd keys are 11px with a 4px-radius hairline-strong border.
 
 ### Named Rules
-**The Mono Number Rule.** Any number a presenter might read aloud (a reading, a count, a price, a time) is set in Azeret Mono with `font-variant-numeric: tabular-nums`. Units and captions beside it return to Archivo.
+**The Mono Number Rule.** Any number a presenter might read aloud (a reading, a count, a price, a time) is set in Inter (tabular numerals) with `font-variant-numeric: tabular-nums`. Units and captions beside it return to Inter.
 
 **The Wide Heading Rule.** Page- and section-level headings are width 110%, weight 700, tracking -0.03em. Headings inside a panel are width 100%, tracking 0, so panels never shout over the page.
 
@@ -291,7 +291,7 @@ Hybrid, and quiet. Depth comes first from tone: the ground is the darkest value,
 ### Shadow Vocabulary
 - **Panel lift** (`box-shadow: inset 0 1px 0 rgba(255,255,255,.035), 0 24px 48px -36px rgba(0,0,0,.8)`): every `.panel` and the comparison wrapper; the inset line is the lit edge, the outer shadow pools beneath.
 - **Strip lift** (`box-shadow: 0 24px 48px -36px rgba(0,0,0,.8)`): the KPI strip, whose tiles are already separated by hairlines and need no inset edge.
-- **Top rule** (`box-shadow: inset 0 2px 0 var(--signal)`): the Mlinzi column header in the comparison; a rule drawn as an inset shadow, not elevation.
+- **Top rule** (`box-shadow: inset 0 2px 0 var(--signal)`): the Moyo column header in the comparison; a rule drawn as an inset shadow, not elevation.
 
 ### Named Rules
 **The Lit-Edge Rule.** A raised surface shows a 1px highlight on its top edge and a shadow below. Depth is never conveyed by a coloured glow or a brighter border alone.
@@ -318,13 +318,13 @@ Controls are quiet until pressed; the pressed scenario is the one amber fill on 
 - **State badge:** 11px/500, 2x8px padding, pill, Hairline Strong border, muted text. Active stage: border and text in the actor ink. Done stage: foreground text on Panel Raised.
 - **Pill (plan, live):** 12px/500, 3x9px (4x10px with a 7px mint dot for the live indicator), pill, hairline border, muted text.
 - **Provenance tag:** 12px/500 amber text on a 40% amber pill border, placed under a section heading to label illustrative data.
-- **kbd:** Azeret Mono 11px, 3x5px, 4px radius, Hairline Strong border, muted.
+- **kbd:** Inter (tabular numerals) 11px, 3x5px, 4px radius, Hairline Strong border, muted.
 
 ### Cards / Containers
 - **Corner Style:** 12px.
 - **Background:** `linear-gradient(180deg, panel-raised, panel 38%)` with a 1px hairline border.
 - **Shadow Strategy:** Panel lift (see Elevation).
-- **Border:** hairline; Guardian Plus uses a 45% mint border; the active stage uses `color-mix(in oklab, actor 55%, hairline)`.
+- **Border:** hairline; Moyo Plus uses a 45% mint border; the active stage uses `color-mix(in oklab, actor 55%, hairline)`.
 - **Internal Padding:** 20x22px (section panels), 18px (member panel), 13x14px (stage cards), 22px (plan cards).
 - **Lists inside panels** separate items with hairline rules and 12px vertical padding, no bullets.
 
@@ -350,7 +350,7 @@ Five hairline-separated tiles in one 12px container: 12px label, 34px mint mono 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** set every number and timestamp in Azeret Mono with tabular numerals, and return units and captions to Archivo.
+- **Do** set every number and timestamp in Inter (tabular numerals) with tabular numerals, and return units and captions to Inter.
 - **Do** colour an actor through `--c` only: mark, top rule, node, active chip and log name; tint its active stage with `color-mix` at 55% (border) and 6% (background).
 - **Do** keep amber for the live signal and the presenter's controls: pulse, track fill, selected scenario, cuff prompt, progress line, provenance tag, focus ring.
 - **Do** build tile sets as hairline grids (1px gap over the hairline colour inside one 12px bordered container) rather than nested bordered boxes.
@@ -366,5 +366,5 @@ Five hairline-separated tiles in one 12px container: 12px label, 34px mint mono 
 - **Don't** fill a stage or panel with an actor's ink; actor colours are marks and rules, never surfaces.
 - **Don't** set uppercase text outside the key of a key/value pair; there are no kickers or eyebrows above headings, only the mint mark.
 - **Don't** widen or tighten headings inside panels; width 110% and -0.03em belong to page and section headings only.
-- **Don't** introduce a second body face or a system display face; Archivo and Azeret Mono are the whole palette.
+- **Don't** introduce a second body face or a system display face; Inter and Inter (tabular numerals) are the whole palette.
 - **Don't** add a light theme; the system is dark only (`color-scheme: dark`).

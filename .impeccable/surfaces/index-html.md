@@ -5,14 +5,14 @@ primary_target: "index.html"
 related_targets: []
 ---
 
-# Surface: Mlinzi demo (index.html)
+# Surface: Moyo demo (index.html)
 
 Mode: Experience. The demo is the work; it is clicked through live on a classroom projector at Week 10.
 Audience and job: GENE 225 panel must remember the handoff, one health event passing band, AI, nurse, doctor, insurer, each seeing their own slice. Must not feel too busy to present. Live scenarios (BP with cuff pause, rhythm, sleep/stress) are binding; structure is open.
 
 ## Direction contract
 
-THESIS: Mlinzi as a live care pipeline: one signal visibly travels from the band through AI, nurse, doctor and insurer, and every stage's own view updates in the same screen. Refuses both the phone-mockup-beside-dashboard default and any paper metaphor.
+THESIS: Moyo as a live care pipeline: one signal visibly travels from the band through AI, nurse, doctor and insurer, and every stage's own view updates in the same screen. Refuses both the phone-mockup-beside-dashboard default and any paper metaphor.
 
 OWN-WORLD: Dark, sleek, data-forward. A deep blue-green ink ground with quiet raised panels and hairline borders; one warm amber signal colour (the guardian's lamp) for the live event; one muted ink per actor (AI teal, nurse violet, doctor coral, insurer blue). Archivo for interface, set wide (110%) and heavy for headings, Azeret Mono for every number and timestamp; the user rejected the previous pairing and asked for "its own identity". Panels carry real depth (inner top highlight, soft offset shadow). Brand mint is the one accent for KPIs, section marks and the AI; amber is reserved for the live signal. Scroll reveals, counting KPIs, growing bars and a progress line are the page's motion grammar, all from a visible resting state under reduced motion. No glows, no gradients on text, no paper.
 

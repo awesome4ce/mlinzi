@@ -1,8 +1,8 @@
-# Mlinzi
+# Moyo
 
 
 Live demo: https://mlinzi-seven.vercel.app
-Clickable product demo for **Mlinzi** (Swahili for "guardian"): a premium health wearable plus a remote care team (AI monitoring, nurse follow-up, doctor escalation) for affluent Kenyans, partnered with private insurers.
+Clickable product demo for **Moyo** (Swahili for "heart"): a premium health wearable plus a remote care team (AI monitoring, nurse follow-up, doctor escalation) for affluent Kenyans, partnered with private insurers.
 
 Class project for GENE 225, Stanford, Fall 2026, by Ethan Seung and Steven Diaz. All people, readings, and pilot figures are fictional.
 

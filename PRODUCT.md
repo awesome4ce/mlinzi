@@ -10,17 +10,17 @@ web
 
 The primary audience is the GENE 225 teaching team and class panel at Stanford (Fall 2026), who grade the project at the Week 10 presentations alongside a written paper. They need to grasp the business model and believe the product is real within a few minutes.
 
-The product it depicts serves affluent Kenyans, starting in Nairobi, who pay for proactive health oversight. Secondary users inside the product are Mlinzi's licensed Kenyan nurses (working a flag queue on shift), partner-hospital doctors (receiving escalations), and private insurers such as Jubilee Health (viewing pooled cohort data and opted-in members).
+The product it depicts serves affluent Kenyans, starting in Nairobi, who pay for proactive health oversight. Secondary users inside the product are Moyo's licensed Kenyan nurses (working a flag queue on shift), partner-hospital doctors (receiving escalations), and private insurers such as Jubilee Health (viewing pooled cohort data and opted-in members).
 
 ## Product Purpose
 
-Mlinzi (Swahili for "guardian") is a startup concept: a proprietary health wearable plus a remote care service. The band measures; an AI flags anomalies around the clock; a licensed Kenyan nurse calls the member; a doctor at a partner hospital in Nairobi handles escalation.
+Moyo (Swahili for "heart") is a startup concept: a proprietary health wearable plus a remote care service. The band measures; an AI flags anomalies around the clock; a licensed Kenyan nurse calls the member; a doctor at a partner hospital in Nairobi handles escalation.
 
 The website is a clickable product demo, not a marketing site. Success means the panel watches one scenario play out and understands, without extra explanation, who sees what at each step: member, nurse, doctor, insurer.
 
 ## Positioning
 
-Other wearables give people numbers. Mlinzi gives them a Kenyan nurse and doctor who act on those numbers; the band is the entry ticket to the care team. Owning the device keeps the data rights (no HealthKit sharing limits), and insurers' group-risk models trained on Mlinzi data create switching costs.
+Other wearables give people numbers. Moyo gives them a Kenyan nurse and doctor who act on those numbers; the band is the entry ticket to the care team. Owning the device keeps the data rights (no HealthKit sharing limits), and insurers' group-risk models trained on Moyo data create switching costs.
 
 ## Operating Context
 
@@ -34,14 +34,14 @@ Other wearables give people numbers. Mlinzi gives them a Kenyan nurse and doctor
 - Live scenarios are binding: rising blood pressure, irregular heart rhythm, and poor sleep/stress. Running one updates the member app, the care team console, and the insurer view together. The BP scenario pauses for a home-cuff confirmation before the nurse acts.
 - Blood pressure from the band is a trend only; clinical decisions use the home BP cuff in the kit and a doctor. The band makes no diagnostic claims.
 - Insurers see group-level, de-identified data. Members may opt in to individual sharing, used only for care pre-approval and discounts, never to raise an individual's premium or deny cover (Kenya Data Protection Act 2019 treats health data as sensitive).
-- Pricing (illustrative): Guardian KES 3,900/month (band, cuff, AI, nurse calls); Guardian Plus KES 9,500/month (adds doctor escalation, quarterly check-up, two family members). Insurer discount up to 15% with record sharing.
+- Pricing (illustrative): Moyo KES 3,900/month (band, cuff, AI, nurse calls); Moyo Plus KES 9,500/month (adds doctor escalation, quarterly check-up, two family members). Insurer discount up to 15% with record sharing.
 - Expansion path: Kenya first, then other African markets, then a cheaper middle-class tier as data lowers costs.
 - Not binding: the current four-tab structure, the shield logo, and the current visual style.
 
 ## Brand Commitments
 
-- Name: Mlinzi, meaning "guardian" in Swahili.
-- Mlinzi presents as a tech product: dark, sleek, modern, and data-forward, with its own identity rather than borrowed from any one company. The user rejected the paper/notebook metaphor ("this is supposed to be a tech, not a notebook entry app"); do not bring back paper, handwriting, or stamp metaphors.
+- Name: Moyo, meaning "heart" in Swahili.
+- Moyo presents as a tech product: dark, sleek, modern, and data-forward, with its own identity rather than borrowed from any one company. The user rejected the paper/notebook metaphor ("this is supposed to be a tech, not a notebook entry app"); do not bring back paper, handwriting, or stamp metaphors.
 - Single dark theme only.
 
 ## Evidence on Hand
