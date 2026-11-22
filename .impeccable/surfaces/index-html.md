@@ -14,7 +14,7 @@ Audience and job: GENE 225 panel must remember the handoff, one health event pas
 
 THESIS: Moyo as a live care pipeline: one signal visibly travels from the band through AI, nurse, doctor and insurer, and every stage's own view updates in the same screen. Refuses both the phone-mockup-beside-dashboard default and any paper metaphor.
 
-OWN-WORLD: Dark, sleek, data-forward. A deep blue-green ink ground with quiet raised panels and hairline borders; one warm amber signal colour (the guardian's lamp) for the live event; one muted ink per actor (AI teal, nurse violet, doctor coral, insurer blue). Archivo for interface, set wide (110%) and heavy for headings, Azeret Mono for every number and timestamp; the user rejected the previous pairing and asked for "its own identity". Panels carry real depth (inner top highlight, soft offset shadow). Brand mint is the one accent for KPIs, section marks and the AI; amber is reserved for the live signal. Scroll reveals, counting KPIs, growing bars and a progress line are the page's motion grammar, all from a visible resting state under reduced motion. No glows, no gradients on text, no paper.
+OWN-WORLD: Dark, warm and data-forward, built from one coral "heart" hue (#FF5C4D, peach tint #FF8A6B) on a warm near-black ground. Amber means watch, pink (#FF4D8D) means urgent; everything else is neutral. Roles are a tonal ramp of the brand and stages are numbered 01-04. Hanken Grotesk for all text and tabular numbers, IBM Plex Mono only for timestamps, keys and eyebrows. Boxes only for genuinely separate views (stage cards, event log, phone); everything else is separated by spacing and hairlines. Text never below 4.5:1. See DESIGN.md.
 
 STORY: The presenter presses 1, 2 or 3; the panel watches the pulse move stage to stage while each stage shows exactly what that actor sees, the insurer stage redacted unless Amani consents. Below: the insurer's pooled numbers, the competitive comparison, the moat, and the two plans.
 
@@ -24,4 +24,4 @@ FORM: seed: none (pinned). User's words for the world: "this is supposed to be a
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
 
-Signature interaction: keyboard-driven presenting (1, 2, 3 run scenarios; R resets; C takes the cuff reading), with the amber pulse travelling the connector into each stage as it activates.
+Signature interaction: keyboard-driven presenting (1, 2, 3 run scenarios; R resets; C takes the cuff reading), with the coral pulse travelling the connector into each stage as it activates.
